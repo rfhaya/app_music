@@ -22,6 +22,29 @@
 	<!-- Theme Style CSS -->
 	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header-colors.css') }}" />
 	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/artists.css') }}" />
+
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			overflow: hidden;
+			/* blok scroll */
+		}
+
+		.page-wrapper {
+			height: 100vh;
+			overflow: hidden;
+			/* mencegah scroll */
+			padding-left: 20px;
+			position: relative;
+		}
+
+		.page-content {
+			padding: 0 !important;
+		}
+	</style>
 </head>
 
 <body>
@@ -81,14 +104,14 @@
 						</a>
 					</li>
 					<li class="menu-label">Library</li>
-					<li class="mm-active">
+					<li>
 						<a href="{{ url_for('genresong') }}">
 							<div class="parent-icon"><i class='bx bxs-hot'></i>
 							</div>
 							<div class="menu-title">Genre</div>
 						</a>
 					</li>
-					<li>
+					<li class="mm-active">
 						<a href="{{ url_for('artists') }}">
 							<div class="parent-icon"><i class='bx bxs-user'></i>
 							</div>
@@ -122,14 +145,11 @@
 		<!-- Page Wrapper -->
 		<div class="page-wrapper" style="padding-left: 0;">
 			<div class="page-content text-dark position-relative">
-				{% set background_image = url_for('static', filename='assets/images/genres/' + genre|lower|replace(' ',
-				'-') + '.jpg') %}
-				<div id="artist-detail"
-					style="background-image: url('{{ background_image }}'); background-size: cover; background-position: center; display: flex;">
+				<div id="artist-detail" style="background-image: url('{{ artist.image }}'); display: flex;">
 					<div class="artist-left">
 						<a href="{{ request.referrer or url_for('search') }}" class="btn btn-light mb-3">&larr; Back</a>
-						<div class="heading">{{ genre_meta.name }}</div>
-						<p class="subheading">{{ genre_meta.bio }}</p>
+						<div class="heading">{{ artist.name }}</div>
+						<p class="subheading">{{ artist.bio }}</p>
 					</div>
 					<div class="artist-right">
 						<div class="album-list" id="artist-albums">
@@ -171,4 +191,5 @@
 	<script src="{{ url_for('static', filename='assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
 	<script src="{{ url_for('static', filename='assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
 	<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
+	</script>
 </body>
