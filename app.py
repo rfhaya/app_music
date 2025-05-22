@@ -10,9 +10,9 @@ import difflib
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
-CLIENT_ID = "85c8678f0843408890708001d9c081bc"
-CLIENT_SECRET = "f7560a2e8d8d4e79987fcde27fb86add"
-REDIRECT_URI = "http://127.0.0.1:5000/callback"
+CLIENT_ID = os.environ.get("CLIENT_ID")
+CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+REDIRECT_URI = os.environ.get("REDIRECT_URI", "http://127.0.0.1:5000/callback")
 
 # Load artist model once
 df_artist = pd.DataFrame(load("data/model/artist/data.pkl"))
