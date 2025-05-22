@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en" class="color-sidebar sidebarcolor4">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="{{ url_for('static', filename='assets/images/logos.png') }}" type="image/png" />
+	<!--plugins-->
+	<link href="{{ url_for('static', filename='assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+	<link href="{{ url_for('static', filename='assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
+	<!-- loader-->
+	<link href="{{ url_for('static', filename='assets/css/pace.min.css') }}" rel="stylesheet" />
+	<script src="{{ url_for('static', filename='assets/js/pace.min.js') }}"></script>
+	<!-- Bootstrap CSS -->
+	<link href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/bootstrap-extended.css') }}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/app.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/icons.css') }}" rel="stylesheet">
+	<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header-colors.css') }}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/popular.css') }}" />
+</head>
+
+<body>
+	<!--wrapper-->
+	<div class="wrapper sidebarcolor4">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper d-flex flex-column">
+			<div class="sidebar-header">
+				<div>
+					<img src="{{ url_for('static', filename='assets/images/logos.png') }}" class="logo-icon"
+						alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Harmony</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i></div>
+			</div>
+			<!--navigation-->
+			<div class="sidebar-menu flex-grow-1 overflow-auto" data-simplebar>
+				<ul class="metismenu" id="menu">
+					<li class="menu-label">Search</li>
+					<li>
+						<form action="{{ url_for('search') }}" method="get" class="position-relative m-2">
+							<input id="searchInput" type="text" name="q" class="form-control"
+								placeholder="Search songs, artists, genres..." required>
+						</form>
+					</li>
+
+					<li class="menu-label">Menu</li>
+					<li>
+						<a href="{{ url_for('index') }}">
+							<div class="parent-icon"><i class='bx bxs-home-circle'></i>
+							</div>
+							<div class="menu-title">Home</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('discovery') }}">
+							<div class="parent-icon"><i class='bx bx-compass'></i>
+							</div>
+							<div class="menu-title">Discover</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('search') }}">
+							<div class="parent-icon"><i class='bx bx-merge'></i>
+							</div>
+							<div class="menu-title">Browse</div>
+						</a>
+					</li>
+
+					<li class="menu-label">Recommendation</li>
+					<li class="mm-active">
+						<a href="{{ url_for('popular') }}">
+							<div class="parent-icon"><i class='bx bxs-star'></i>
+							</div>
+							<div class="menu-title">Popular</div>
+						</a>
+					</li>
+					<li class="menu-label">Library</li>
+					<li>
+						<a href="{{ url_for('genresong') }}">
+							<div class="parent-icon"><i class='bx bxs-hot'></i>
+							</div>
+							<div class="menu-title">Genre</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('artists') }}">
+							<div class="parent-icon"><i class='bx bxs-user'></i>
+							</div>
+							<div class="menu-title">Artists</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="sidebar-profile text-white d-flex align-items-center p-3">
+				<img src="{{ session.get('user_image') or url_for('static', filename='assets/images/avatars/hacker.png') }}"
+					class="rounded-circle me-2" width="50" height="50" alt="User Avatar">
+				<div class="profile-info">
+					<div class="fw-bold">{{ session.get('user_name', 'Guest') }}</div>
+					<div class="text-muted small">{{ session.get('user_product', 'Free') }} Member</div>
+				</div>
+			</div>
+
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu d-md-none"><i class='bx bx-menu'></i></div>
+				</nav>
+			</div>
+		</header>
+		<!--end header -->
+		<!--start page wrapper -->
+		<div class="page-wrapper" style="padding-left: 0;">
+			<div class="hero-section">
+				<!-- Left Side -->
+				<div class="hero-text">
+					<h1 class=" text-white">Keep On With Falling</h1>
+					<p class=" text-white">Review by Tim Sendra</p>
+					<button id="btn-play" class="btn-icon"><i class='bx bx-play'></i></button>
+				</div>
+
+				<div class="next-songs">
+					<h6 class="text-white mb-3">Popular Recommend</h6>
+
+					<div class="scroll-vertical no-scrollbar align-items-center">
+						{% for song in songs %}
+						<div class="song-card" data-title="{{ song.title }}" data-artist="{{ song.artist }}"
+							data-img="{{ song.image }}" data-audio="{{ song.audio }}">
+							<img src="{{ song.image }}" alt="{{ song.title }}" />
+							<div class="title text-white">{{ song.title }}</div>
+							<div class="artist text-white">{{ song.artist }}</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Page Wrapper -->
+
+		<div class="player-bar">
+			<div class="player-container d-flex flex-column gap-3">
+				<!-- Kontrol Atas -->
+				<div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+					<!-- Group Kiri -->
+					<div class="d-flex gap-2 align-items-center" style="min-width: 0; width: 10%;">
+						<div class="flex-grow-1 overflow-hidden">
+							<div id="player-title" class="fw-bold text-white text-truncate text-nowrap">Judul Lagu
+								Sangat Panjang Sekali Melebihi Batas</div>
+							<div id="player-artist" class="text-white-50 small text-truncate text-nowrap">Nama Penyanyi
+								Yang Juga Sangat Panjang Banget</div>
+						</div>
+					</div>
+
+
+					<!-- Tengah -->
+					<div class="d-flex align-items-center gap-3">
+						<button id="btn-shuffle" class="btn-icon"><i class='bx bx-shuffle'></i></button>
+						<button id="btn-prev" class="btn-icon"><i class='bx bx-skip-previous'></i></button>
+						<button id="btn-play-pause"
+							class="btn-play rounded-circle d-flex align-items-center justify-content-center">
+							<i class='bx bx-play'></i>
+						</button>
+						<button id="btn-next" class="btn-icon"><i class='bx bx-skip-next'></i></button>
+						<button id="btn-repeat" class="btn-icon"><i class='bx bx-repeat'></i></button>
+					</div>
+
+					<!-- Volume -->
+					<div class="d-flex align-items-center gap-2">
+						<i id="volume-icon" class="bx bx-volume-full fs-5"></i>
+						<input id="volume-control" type="range" min="0" max="100" value="80" class="form-range"
+							style="width: 100px;">
+					</div>
+				</div>
+
+				<!-- Progress Bar -->
+				<div class="d-flex align-items-center gap-2">
+					<small id="current-time" class="text-white-50">0:00</small>
+					<input id="progress-bar" type="range" min="0" max="100" value="0" class="form-range flex-grow-1">
+					<small id="duration" class="text-white-50">0:00</small>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end wrapper-->
+	<!-- jQuery HARUS pertama -->
+	<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+
+	<!-- Kemudian Bootstrap & plugin -->
+	<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/index.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
+
+	<script>
+		// Daftar lagu dari Flask
+		const songs = {{ songs| tojson | safe }};
+		console.log("Loaded songs:", songs); // Untuk debugging
+
+		// Inisialisasi player
+		const audioPlayer = new Audio();
+		let currentSongIndex = 0;
+		let isPlaying = false;
+
+		// Fungsi untuk memuat lagu
+		function loadSong(index) {
+			// Validasi index
+			if (index < 0 || index >= songs.length) return;
+
+			const song = songs[index];
+			console.log("Loading song:", song); // Untuk debugging
+
+			// Reset player state
+			isPlaying = false;
+			updatePlayButton();
+			document.getElementById('progress-bar').value = 0;
+			document.getElementById('current-time').textContent = "0:00";
+
+			// Update UI
+			document.querySelector('.hero-text h1').textContent = song.title;
+			document.querySelector('.hero-text p').textContent = `By ${song.artist}`;
+			document.querySelector('.hero-section').style.background = `url('${song.image}') center/cover no-repeat`;
+			document.getElementById('player-title').textContent = song.title;
+			document.getElementById('player-artist').textContent = song.artist;
+
+			// Update kartu lagu aktif
+			document.querySelectorAll('.song-card').forEach((card, i) => {
+				card.classList.toggle('active', i === index);
+			});
+
+			// Muat audio
+			if (song.audio && song.audio !== "#") {
+				audioPlayer.src = song.audio;
+				audioPlayer.load();
+				console.log("Audio source set to:", song.audio);
+
+				// Setelah audio dimuat, update durasi
+				audioPlayer.addEventListener('loadedmetadata', function () {
+					document.getElementById('duration').textContent = formatTime(audioPlayer.duration);
+				});
+			} else {
+				console.warn("No audio source for this song");
+			}
+		}
+
+		// Fungsi format waktu
+		function formatTime(seconds) {
+			const minutes = Math.floor(seconds / 60);
+			const secs = Math.floor(seconds % 60);
+			return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
+		}
+
+		// Fungsi untuk memainkan/pause audio
+		function togglePlay() {
+			if (!audioPlayer.src) {
+				alert("Tidak ada lagu yang dipilih");
+				return;
+			}
+
+			if (isPlaying) {
+				audioPlayer.pause();
+				isPlaying = false;
+				updatePlayButton();
+			} else {
+				audioPlayer.play()
+					.then(() => {
+						isPlaying = true;
+						updatePlayButton(); // Pindah ke dalam .then agar pasti icon diperbarui
+					})
+					.catch(error => {
+						console.error("Playback failed:", error);
+						alert("Gagal memutar musik. Silakan coba lagi.");
+						isPlaying = false;
+						updatePlayButton(); // update juga di sini
+					});
+			}
+		}
+
+
+		// Fungsi untuk mengupdate tombol play/pause
+		function updatePlayButton() {
+			const playPauseBtn = document.getElementById('btn-play-pause');
+			const playBtn = document.getElementById('btn-play');
+
+			if (isPlaying) {
+				// Ubah icon menjadi pause
+				playPauseBtn.innerHTML = '<i class="bx bx-pause"></i>';
+				playBtn.innerHTML = '<i class="bx bx-pause"></i>';
+			} else {
+				// Ubah icon menjadi play
+				playPauseBtn.innerHTML = '<i class="bx bx-play"></i>';
+				playBtn.innerHTML = '<i class="bx bx-play"></i>';
+			}
+		}
+
+		// Event listeners untuk tombol player
+		document.getElementById('btn-play-pause').addEventListener('click', togglePlay);
+		document.getElementById('btn-play').addEventListener('click', togglePlay);
+
+		// Tombol next/previous
+		document.getElementById('btn-next').addEventListener('click', function () {
+			currentSongIndex = (currentSongIndex + 1) % songs.length;
+			loadSong(currentSongIndex);
+		});
+
+		document.getElementById('btn-prev').addEventListener('click', function () {
+			currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+			loadSong(currentSongIndex);
+		});
+
+		// Klik pada kartu lagu
+		document.querySelectorAll('.song-card').forEach((card, index) => {
+			card.addEventListener('click', function () {
+				currentSongIndex = index;
+				loadSong(currentSongIndex);
+				// Tidak otomatis play ketika lagu dipilih
+			});
+		});
+
+		// Update progress bar
+		audioPlayer.addEventListener('timeupdate', function () {
+			const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+			document.getElementById('progress-bar').value = progress || 0;
+
+			// Format waktu currentTime
+			document.getElementById('current-time').textContent = formatTime(audioPlayer.currentTime);
+		});
+
+		// Seek ketika progress bar diubah
+		document.getElementById('progress-bar').addEventListener('input', function () {
+			const seekTime = (this.value / 100) * audioPlayer.duration;
+			audioPlayer.currentTime = seekTime;
+		});
+
+		// Volume control
+		document.getElementById('volume-control').addEventListener('input', function () {
+			audioPlayer.volume = this.value / 100;
+			const volumeIcon = document.getElementById('volume-icon');
+			if (this.value == 0) {
+				volumeIcon.className = 'bx bx-volume-mute fs-5';
+			} else if (this.value < 50) {
+				volumeIcon.className = 'bx bx-volume-low fs-5';
+			} else {
+				volumeIcon.className = 'bx bx-volume-full fs-5';
+			}
+		});
+
+		// Ketika lagu selesai, mainkan lagu berikutnya
+		audioPlayer.addEventListener('ended', function () {
+			document.getElementById('btn-next').click();
+		});
+
+		// Ketika berpindah lagu, pause audio yang sedang diputar
+		audioPlayer.addEventListener('loadstart', function () {
+			if (isPlaying) {
+				audioPlayer.pause();
+				isPlaying = false;
+				updatePlayButton();
+			}
+		});
+
+		// Inisialisasi lagu pertama
+		if (songs.length > 0) {
+			loadSong(0);
+			// Set volume awal
+			audioPlayer.volume = document.getElementById('volume-control').value / 100;
+		} else {
+			console.warn("No songs available");
+		}
+	</script>
+</body>
+
+</html>

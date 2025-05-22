@@ -1,0 +1,4170 @@
+{
+ "chartEntryViewResponses": [
+  {
+   "countryFilters": [],
+   "displayChart": {
+    "date": "2025-05-15",
+    "description": "Your weekly update of the most played tracks right now.",
+    "chartMetadata": {
+     "uri": "spotify:chart:7zE64clO2DB2y74QymNWRn",
+     "alias": "REGIONAL_GLOBAL_WEEKLY",
+     "entityType": "TRACK",
+     "readableTitle": "Weekly Top Songs: Global",
+     "backgroundColor": "#773795",
+     "textColor": "#FFFFFF",
+     "dimensions": {
+      "latestDate": "2025-05-15",
+      "earliestDate": "2016-12-29",
+      "country": "GLOBAL",
+      "chartType": "TOP_TRACK",
+      "recurrence": "WEEKLY",
+      "genre": "",
+      "city": ""
+     }
+    }
+   },
+   "entries": [
+    {
+     "chartEntryData": {
+      "currentRank": 1,
+      "previousRank": 2,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Ordinary",
+      "trackUri": "spotify:track:2RkZ5LkEzeHGRsmDqKwmaJ",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021648716c6562145bea491cb6",
+      "artists": [
+       {
+        "name": "Alex Warren",
+        "spotifyUri": "spotify:artist:0fTSzq9jAh4c36UVb4V7CB",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 2,
+      "previousRank": 1,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Die With A Smile",
+      "trackUri": "spotify:track:7so0lgd0zP2Sbgs2d7a1SZ",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b0860cf0a98e09663c82290c",
+      "artists": [
+       {
+        "name": "Lady Gaga",
+        "spotifyUri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms",
+        "externalUrl": ""
+       },
+       {
+        "name": "Bruno Mars",
+        "spotifyUri": "spotify:artist:0du5cEVh5yTK9QJze8zA0C",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 3,
+      "previousRank": 3,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "BIRDS OF A FEATHER",
+      "trackUri": "spotify:track:6dOtVTDdiauQNBQEDOtlAB",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+      "artists": [
+       {
+        "name": "Billie Eilish",
+        "spotifyUri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 4,
+      "previousRank": 4,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "APT.",
+      "trackUri": "spotify:track:4wJ5Qq0jBN4ajy7ouZIV1c",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025074bd0894cb1340b8d8a678",
+      "artists": [
+       {
+        "name": "ROSÉ",
+        "spotifyUri": "spotify:artist:3eVa5w3URK5duf6eyVDbu9",
+        "externalUrl": ""
+       },
+       {
+        "name": "Bruno Mars",
+        "spotifyUri": "spotify:artist:0du5cEVh5yTK9QJze8zA0C",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 5,
+      "previousRank": 9,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "DtMF",
+      "trackUri": "spotify:track:3sK8wGT43QFpWrvNQsrQya",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 6,
+      "previousRank": 5,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "La Plena - W Sound 05",
+      "trackUri": "spotify:track:6iOndD4OFo7GkaDypWQIou",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024740100d84f3667f1eae6870",
+      "artists": [
+       {
+        "name": "W Sound",
+        "spotifyUri": "spotify:artist:5uwa6tAMMfNbBFIHiI6NV4",
+        "externalUrl": ""
+       },
+       {
+        "name": "Beéle",
+        "spotifyUri": "spotify:artist:7a0XAaPaK2aDSqa8p3QnC7",
+        "externalUrl": ""
+       },
+       {
+        "name": "Ovy On The Drums",
+        "spotifyUri": "spotify:artist:3m5qlPf2OkihLz3dRYnkPA",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 7,
+      "previousRank": 10,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "back to friends",
+      "trackUri": "spotify:track:0FTmksd2dxiE5e3rWyJXs6",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029d24f74c1e2d8a12b1e591ec",
+      "artists": [
+       {
+        "name": "sombr",
+        "spotifyUri": "spotify:artist:4G9NDjRyZFDlJKMRL8hx3S",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 8,
+      "previousRank": 17,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "BAILE INoLVIDABLE",
+      "trackUri": "spotify:track:2lTm559tuIvatlT1u0JYG2",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 9,
+      "previousRank": 15,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "undressed",
+      "trackUri": "spotify:track:4AajxCEwGEsmHmT4H1TwjY",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02dad39d4906f76b7c176effb1",
+      "artists": [
+       {
+        "name": "sombr",
+        "spotifyUri": "spotify:artist:4G9NDjRyZFDlJKMRL8hx3S",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 10,
+      "previousRank": 7,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "like JENNIE",
+      "trackUri": "spotify:track:0fK7ie6XwGxQTIkpFoWkd1",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025a43918ea90bf1e44b7bdcfd",
+      "artists": [
+       {
+        "name": "JENNIE",
+        "spotifyUri": "spotify:artist:250b0Wlc5Vk0CoUsaCY84M",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 11,
+      "previousRank": 8,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "luther (with sza)",
+      "trackUri": "spotify:track:2CGNAOSuO1MEFCbBRgUzjd",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0209d6ed214f03fbb663e46531",
+      "artists": [
+       {
+        "name": "Kendrick Lamar",
+        "spotifyUri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+        "externalUrl": ""
+       },
+       {
+        "name": "SZA",
+        "spotifyUri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 12,
+      "previousRank": 6,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "That’s So True",
+      "trackUri": "spotify:track:7ne4VBA60CxGM75vw0EYad",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021dac3694b3289cd903cb3acf",
+      "artists": [
+       {
+        "name": "Gracie Abrams",
+        "spotifyUri": "spotify:artist:4tuJ0bMpJh08umKkEXKUI5",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 13,
+      "previousRank": 12,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "WILDFLOWER",
+      "trackUri": "spotify:track:3QaPy1KgI7nu9FJEQUgn6h",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+      "artists": [
+       {
+        "name": "Billie Eilish",
+        "spotifyUri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 14,
+      "previousRank": 13,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Beautiful Things",
+      "trackUri": "spotify:track:3xkHsmpQCBMytMJNiDf3Ii",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cc04ff3e70e146ba9abacf40",
+      "artists": [
+       {
+        "name": "Benson Boone",
+        "spotifyUri": "spotify:artist:22wbnEMDvgVIAGdFeek6ET",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 15,
+      "previousRank": 14,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Sailor Song",
+      "trackUri": "spotify:track:21IYMdzTrzSe191Cy5eMap",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bc5665902cfbbb15af08e5c4",
+      "artists": [
+       {
+        "name": "Gigi Perez",
+        "spotifyUri": "spotify:artist:1iCnM8foFssWlPRLfAbIwo",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 16,
+      "previousRank": 39,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Mangu",
+      "trackUri": "spotify:track:4e6TmHCC4PRUj75knNplNP",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0232ab17f5515e51490841f648",
+      "artists": [
+       {
+        "name": "Fourtwnty",
+        "spotifyUri": "spotify:artist:46cVq2dwPgzPE3X1VR9TMj",
+        "externalUrl": ""
+       },
+       {
+        "name": "Charita Utami",
+        "spotifyUri": "spotify:artist:48yQuRfvklyupKmridU1du",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 17,
+      "previousRank": 16,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Espresso",
+      "trackUri": "spotify:track:2HRqTpkrJO5ggZyyK6NPWz",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+      "artists": [
+       {
+        "name": "Sabrina Carpenter",
+        "spotifyUri": "spotify:artist:74KM79TiuVKeVCqs8QtB0B",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 18,
+      "previousRank": 11,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Abracadabra",
+      "trackUri": "spotify:track:2LHNTC9QZxsL3nWpt8iaSR",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b0860cf0a98e09663c82290c",
+      "artists": [
+       {
+        "name": "Lady Gaga",
+        "spotifyUri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 19,
+      "previousRank": 18,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Who",
+      "trackUri": "spotify:track:7tI8dRuH2Yc6RuoTjxo4dU",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f02c451189a709b9a952aaec",
+      "artists": [
+       {
+        "name": "Jimin",
+        "spotifyUri": "spotify:artist:1oSPZhvZMIrWW5I41kPkkY",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 20,
+      "previousRank": 19,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Messy",
+      "trackUri": "spotify:track:35ISBknsCeZQtq66xABI9g",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026aa2a180c7b009ca8454ef89",
+      "artists": [
+       {
+        "name": "Lola Young",
+        "spotifyUri": "spotify:artist:67FB4n52MgexGQIG8s0yUH",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 21,
+      "previousRank": 31,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "EoO",
+      "trackUri": "spotify:track:6J5kc12BW5HuP3d7C3vvx8",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 22,
+      "previousRank": 20,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Love Me Not",
+      "trackUri": "spotify:track:4WFgvKVfEhb3IUAFGrutTR",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ef985ba96e76a9574cc68a30",
+      "artists": [
+       {
+        "name": "Ravyn Lenae",
+        "spotifyUri": "spotify:artist:5RTLRtXjbXI2lSXc6jxlAz",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 23,
+      "previousRank": 24,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Timeless (feat Playboi Carti)",
+      "trackUri": "spotify:track:0FIDCNYYjNvPVimz5icugS",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02982320da137d0de34410df61",
+      "artists": [
+       {
+        "name": "The Weeknd",
+        "spotifyUri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+        "externalUrl": ""
+       },
+       {
+        "name": "Playboi Carti",
+        "spotifyUri": "spotify:artist:699OTQXzgjhIYAHMy9RyPD",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 24,
+      "previousRank": 21,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Anxiety",
+      "trackUri": "spotify:track:3LPLRNr58Z9Pn0clnEtkXb",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ea29212b801087f18319c187",
+      "artists": [
+       {
+        "name": "Doechii",
+        "spotifyUri": "spotify:artist:4E2rKHVDssGJm2SCDOMMJB",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 25,
+      "previousRank": 29,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "One Of The Girls (with JENNIE, Lily Rose Depp)",
+      "trackUri": "spotify:track:7CyPwkp0oE8Ro9Dd5CUDjW",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b0dd6a5cd1dec96c4119c262",
+      "artists": [
+       {
+        "name": "The Weeknd",
+        "spotifyUri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+        "externalUrl": ""
+       },
+       {
+        "name": "JENNIE",
+        "spotifyUri": "spotify:artist:250b0Wlc5Vk0CoUsaCY84M",
+        "externalUrl": ""
+       },
+       {
+        "name": "Lily-Rose Depp",
+        "spotifyUri": "spotify:artist:1pBLC0qVRTB5zVMuteQ9jJ",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 26,
+      "previousRank": 22,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Show Me Love",
+      "trackUri": "spotify:track:5ITV0zqzjOYfFWpW0xBmRa",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e029263dc4504ccf1b02899d9ae",
+      "artists": [
+       {
+        "name": "WizTheMc",
+        "spotifyUri": "spotify:artist:3ebS2RuCq8QeLyndUDmgB5",
+        "externalUrl": ""
+       },
+       {
+        "name": "bees & honey",
+        "spotifyUri": "spotify:artist:2OFij1ppCwYFCOTq7vzafi",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 27,
+      "previousRank": 26,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Lose Control",
+      "trackUri": "spotify:track:17phhZDn6oGtzMe56NuWvj",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021a0323cc23419360a34a3ace",
+      "artists": [
+       {
+        "name": "Teddy Swims",
+        "spotifyUri": "spotify:artist:33qOK5uJ8AR2xuQQAhHump",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 28,
+      "previousRank": 27,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "All The Stars (with SZA)",
+      "trackUri": "spotify:track:3GCdLUSnKSMJhs4Tj6CV3s",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c027ad28821777b00dcaa888",
+      "artists": [
+       {
+        "name": "Kendrick Lamar",
+        "spotifyUri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+        "externalUrl": ""
+       },
+       {
+        "name": "SZA",
+        "spotifyUri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 29,
+      "previousRank": 50,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "NUEVAYoL",
+      "trackUri": "spotify:track:5TFD2bmFKGhoCRbX61nXY5",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 30,
+      "previousRank": 35,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Iris",
+      "trackUri": "spotify:track:6Qyc6fS4DsZjB2mRW9DsQs",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02eda9478c39a21e1cdc6609ca",
+      "artists": [
+       {
+        "name": "The Goo Goo Dolls",
+        "spotifyUri": "spotify:artist:2sil8z5kiy4r76CRTXxBCA",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 31,
+      "previousRank": 28,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "NOKIA",
+      "trackUri": "spotify:track:2u9S9JJ6hTZS3Vf22HOZKg",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cc392813bfd8f63d4d5f4a95",
+      "artists": [
+       {
+        "name": "Drake",
+        "spotifyUri": "spotify:artist:3TVXtAsR1Inumwj472S9r4",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 32,
+      "previousRank": 30,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Good Luck, Babe!",
+      "trackUri": "spotify:track:0WbMK4wrZ1wFSty9F7FCgu",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0291b4bc7c88d91a42e0f3a8b7",
+      "artists": [
+       {
+        "name": "Chappell Roan",
+        "spotifyUri": "spotify:artist:7GlBOeep6PqTfFi59PTUUN",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 33,
+      "previousRank": 32,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "You'll Be in My Heart",
+      "trackUri": "spotify:track:1UPB5rYJ0bzn6mNSoAHrZC",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027cd329ea4a204a8a47caf3d5",
+      "artists": [
+       {
+        "name": "NIKI",
+        "spotifyUri": "spotify:artist:2kxP07DLgs4xlWz8YHlvfh",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 34,
+      "previousRank": 40,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Si Antes Te Hubiera Conocido",
+      "trackUri": "spotify:track:6WatFBLVB0x077xWeoVc2k",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02491678beaffcefac517a699e",
+      "artists": [
+       {
+        "name": "KAROL G",
+        "spotifyUri": "spotify:artist:790FomKkXshlbRYZFtlgla",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 35,
+      "previousRank": 25,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Morena",
+      "trackUri": "spotify:track:4oB8Xd7gMlUEtWoD8bmCXW",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025c0540f97b3f95e387a9b58e",
+      "artists": [
+       {
+        "name": "Neton Vega",
+        "spotifyUri": "spotify:artist:6pV5zH2LzjOUHaAvENdMMa",
+        "externalUrl": ""
+       },
+       {
+        "name": "Peso Pluma",
+        "spotifyUri": "spotify:artist:12GqGscKJx3aE4t07u7eVZ",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 36,
+      "previousRank": 63,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "VOY A LLeVARTE PA PR",
+      "trackUri": "spotify:track:59D4DOkspUbWyMmbAPQkxZ",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 37,
+      "previousRank": 41,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "I Wanna Be Yours",
+      "trackUri": "spotify:track:5XeFesFbtLpXzIVDNQP22n",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+      "artists": [
+       {
+        "name": "Arctic Monkeys",
+        "spotifyUri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 38,
+      "previousRank": 36,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "The Night We Met",
+      "trackUri": "spotify:track:3hRV0jL3vUpRrcy398teAU",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b4916183f769aca218acb85f",
+      "artists": [
+       {
+        "name": "Lord Huron",
+        "spotifyUri": "spotify:artist:6ltzsmQQbmdoHHbLZ4ZN25",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 39,
+      "previousRank": 34,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Not Like Us",
+      "trackUri": "spotify:track:6AI3ezQ4o3HUoP6Dhudph3",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021ea0c62b2339cbf493a999ad",
+      "artists": [
+       {
+        "name": "Kendrick Lamar",
+        "spotifyUri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 40,
+      "previousRank": 38,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Pink Pony Club",
+      "trackUri": "spotify:track:6393yGahSJ9slVdOwSxOVR",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a21d22ecf823e1c90aa22d1f",
+      "artists": [
+       {
+        "name": "Chappell Roan",
+        "spotifyUri": "spotify:artist:7GlBOeep6PqTfFi59PTUUN",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 41,
+      "previousRank": 43,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Sports car",
+      "trackUri": "spotify:track:5UJbgR4XF4y1DvbkxEqe8S",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ec58cd730a52c5899b947d3e",
+      "artists": [
+       {
+        "name": "Tate McRae",
+        "spotifyUri": "spotify:artist:45dkTj5sMRSjrmBSBeiHym",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 42,
+      "previousRank": 23,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Te Quería Ver",
+      "trackUri": "spotify:track:2JPctdUgvkQSpnUdfROxvY",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e74e15dbe6fba4a2cd3b5d7a",
+      "artists": [
+       {
+        "name": "Alemán",
+        "spotifyUri": "spotify:artist:4QFG9KrGWEbr6hNA58CAqE",
+        "externalUrl": ""
+       },
+       {
+        "name": "Neton Vega",
+        "spotifyUri": "spotify:artist:6pV5zH2LzjOUHaAvENdMMa",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 43,
+      "previousRank": 46,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "PASSO BEM SOLTO - Slowed",
+      "trackUri": "spotify:track:2wG1mwTiuvqll9YYLMjSaY",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c9f7eb9e832dfd6c00dbac8b",
+      "artists": [
+       {
+        "name": "ATLXS",
+        "spotifyUri": "spotify:artist:5SCDfg1YoEfI5gFtXqEWah",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 44,
+      "previousRank": 57,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "VeLDÁ",
+      "trackUri": "spotify:track:7d6yK8v8J484SWH5prIQiE",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       },
+       {
+        "name": "Omar Courtz",
+        "spotifyUri": "spotify:artist:3E12tRURRvPfHz0hAMCFYc",
+        "externalUrl": ""
+       },
+       {
+        "name": "Dei V",
+        "spotifyUri": "spotify:artist:2YRyPiW98bpkARAS4B3OQP",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 45,
+      "previousRank": 45,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Sweater Weather",
+      "trackUri": "spotify:track:0cQVqPuHQP4KEwc7ZUQmj6",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028265a736a1eb838ad5a0b921",
+      "artists": [
+       {
+        "name": "The Neighbourhood",
+        "spotifyUri": "spotify:artist:77SW9BnxLY8rJ0RciFqkHh",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 46,
+      "previousRank": 60,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Gnarly",
+      "trackUri": "spotify:track:1j15Ar0qGDzIR0v3CQv3JL",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028a30c41e2c9336c293ebebfe",
+      "artists": [
+       {
+        "name": "KATSEYE",
+        "spotifyUri": "spotify:artist:3c0gDdb9lhnHGFtP4prQpn",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 47,
+      "previousRank": 42,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "No One Noticed",
+      "trackUri": "spotify:track:3siwsiaEoU4Kuuc9WKMUy5",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024d070fdf58fad8c54c5beb85",
+      "artists": [
+       {
+        "name": "The Marías",
+        "spotifyUri": "spotify:artist:2sSGPbdZJkaSE2AbcGOACx",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 48,
+      "previousRank": 44,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "party 4 u",
+      "trackUri": "spotify:track:2RdEC8Ff83WkX7kDVCHseE",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0249bdbd5880802dcbe4e0b2dd",
+      "artists": [
+       {
+        "name": "Charli xcx",
+        "spotifyUri": "spotify:artist:25uiPmTg16RbhZWAqwLBy5",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 49,
+      "previousRank": 33,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Por Esos Ojos",
+      "trackUri": "spotify:track:77pDO4WZPIdkwFve0iHWnb",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024f13783ebca8686ddc7992e7",
+      "artists": [
+       {
+        "name": "Fuerza Regida",
+        "spotifyUri": "spotify:artist:0ys2OFYzWYB5hRDLCsBqxt",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 50,
+      "previousRank": 53,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "trackMetadata": {
+      "trackName": "Every Breath You Take",
+      "trackUri": "spotify:track:1JSTJqkT5qHq8MDJnJbRE1",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c8e97cafeb2acb85b21a777e",
+      "artists": [
+       {
+        "name": "The Police",
+        "spotifyUri": "spotify:artist:5NGO30tJxFlKixkPSgXcFE",
+        "externalUrl": ""
+       }
+      ],
+      "producers": [],
+      "labels": [],
+      "songWriters": [],
+      "releaseDate": ""
+     }
+    }
+   ],
+   "highlights": [
+    {
+     "type": "HIGHEST_NEW_ENTRY",
+     "text": "“Marlboro Rojo” by Fuerza Regida is the highest new entry on Top Songs Global at #54.",
+     "displayImageUri": "https://i.scdn.co/image/ab67616d0000b2734f13783ebca8686ddc7992e7",
+     "backgroundColor": "#773795",
+     "chartLabel": "Top Songs Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/regional-global-weekly/2025-05-15"
+    },
+    {
+     "type": "GREATEST_GAINER",
+     "text": "“LA CANCIÓN” by J Balvin and Bad Bunny is the biggest gainer on Top Songs Global, up 40 spots at #91.",
+     "displayImageUri": "https://i.scdn.co/image/ab67616d0000b2734891d9b25d8919448388f3bb",
+     "backgroundColor": "#773795",
+     "chartLabel": "Top Songs Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/regional-global-weekly/2025-05-15"
+    },
+    {
+     "type": "LONGEST_STREAK",
+     "text": "“Blinding Lights” by The Weeknd has been on Top Songs Global the longest, at 285 weeks straight.",
+     "displayImageUri": "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+     "backgroundColor": "#773795",
+     "chartLabel": "Top Songs Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/regional-global-weekly/2025-05-15"
+    },
+    {
+     "type": "ARTIST_WITH_MOST_ENTRIES",
+     "text": "Bad Bunny has the most spots on Top Songs Global. “DtMF” is the highest at #5.",
+     "displayImageUri": "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13",
+     "backgroundColor": "#773795",
+     "chartLabel": "Top Songs Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/regional-global-weekly/2025-05-15"
+    }
+   ],
+   "chartNavigationFilters": []
+  },
+  {
+   "countryFilters": [],
+   "displayChart": {
+    "date": "2025-05-15",
+    "description": "Your weekly update of the most played albums right now.",
+    "chartMetadata": {
+     "uri": "spotify:chart:5FvCm0KrDdyXgoUFHCe4i8",
+     "alias": "ALBUM_GLOBAL_WEEKLY",
+     "entityType": "ALBUM",
+     "readableTitle": "Weekly Top Albums: Global",
+     "backgroundColor": "#006450",
+     "textColor": "#FFFFFF",
+     "dimensions": {
+      "latestDate": "2025-05-15",
+      "earliestDate": "2020-10-15",
+      "country": "GLOBAL",
+      "chartType": "TOP_ALBUM",
+      "recurrence": "WEEKLY",
+      "genre": "",
+      "city": ""
+     }
+    }
+   },
+   "entries": [
+    {
+     "chartEntryData": {
+      "currentRank": 1,
+      "previousRank": 1,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "DeBÍ TiRAR MáS FOToS",
+      "albumUri": "spotify:album:5K79FLRUCSysQnVESLcTdb",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02bbd45c8d36e0e045ef640411",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 2,
+      "previousRank": 3,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "HIT ME HARD AND SOFT",
+      "albumUri": "spotify:album:7aJuG4TFXa2hmE4z1yxc3n",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0271d62ea7ea8a5be92d3c1f62",
+      "artists": [
+       {
+        "name": "Billie Eilish",
+        "spotifyUri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 3,
+      "previousRank": 2,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "MAYHEM",
+      "albumUri": "spotify:album:2MHUaRi9OCyTN02SoyRRBJ",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b0860cf0a98e09663c82290c",
+      "artists": [
+       {
+        "name": "Lady Gaga",
+        "spotifyUri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 4,
+      "previousRank": 4,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Short n' Sweet",
+      "albumUri": "spotify:album:3iPSVi54hsacKKl1xIR2eH",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02fd8d7a8d96871e791cb1f626",
+      "artists": [
+       {
+        "name": "Sabrina Carpenter",
+        "spotifyUri": "spotify:artist:74KM79TiuVKeVCqs8QtB0B",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 5,
+      "previousRank": 7,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "111XPANTIA",
+      "albumUri": "spotify:album:1JpJzuM4uncCfCimVozkmy",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024f13783ebca8686ddc7992e7",
+      "artists": [
+       {
+        "name": "Fuerza Regida",
+        "spotifyUri": "spotify:artist:0ys2OFYzWYB5hRDLCsBqxt",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 6,
+      "previousRank": 9,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Un Verano Sin Ti",
+      "albumUri": "spotify:album:3RQQmkQEvNCY4prGKE6oc5",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0249d694203245f241a1bcaa72",
+      "artists": [
+       {
+        "name": "Bad Bunny",
+        "spotifyUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 7,
+      "previousRank": -1,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NEW_ENTRY",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Even In Arcadia",
+      "albumUri": "spotify:album:1lS7FeRcSUuIGqyg99UGpj",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e020e48dcb579fd8e59d0a3c218",
+      "artists": [
+       {
+        "name": "Sleep Token",
+        "spotifyUri": "spotify:artist:2n2RSaZqBuUUukhbLlpnE6",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 8,
+      "previousRank": 5,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "SOS Deluxe: LANA",
+      "albumUri": "spotify:album:3VQkNrG74QPY4rHBPoyZYZ",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e027f5a318e3ff35defa8d0e4af",
+      "artists": [
+       {
+        "name": "SZA",
+        "spotifyUri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 9,
+      "previousRank": 6,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Mi Vida Mi Muerte",
+      "albumUri": "spotify:album:338NDGMHtB4t5mp8RhMnh3",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025c0540f97b3f95e387a9b58e",
+      "artists": [
+       {
+        "name": "Neton Vega",
+        "spotifyUri": "spotify:artist:6pV5zH2LzjOUHaAvENdMMa",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 10,
+      "previousRank": 12,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "You'll Be Alright, Kid (Chapter 1)",
+      "albumUri": "spotify:album:1eCGY9WJpYgtaFh1Lk2KNo",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021648716c6562145bea491cb6",
+      "artists": [
+       {
+        "name": "Alex Warren",
+        "spotifyUri": "spotify:artist:0fTSzq9jAh4c36UVb4V7CB",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 11,
+      "previousRank": 11,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "eternal sunshine deluxe: brighter days ahead",
+      "albumUri": "spotify:album:6cbwstHlsAIIWurIIXXBPd",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025ab3c842fde848df7a4ee6d9",
+      "artists": [
+       {
+        "name": "Ariana Grande",
+        "spotifyUri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 12,
+      "previousRank": 15,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "So Close To What",
+      "albumUri": "spotify:album:3w32SV56JvtJXsrYtThwzP",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02de9b9cbdd872ae103d8530c2",
+      "artists": [
+       {
+        "name": "Tate McRae",
+        "spotifyUri": "spotify:artist:45dkTj5sMRSjrmBSBeiHym",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 13,
+      "previousRank": 10,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Ruby",
+      "albumUri": "spotify:album:1vWMw6pu3err6qqZzI3RhH",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025a43918ea90bf1e44b7bdcfd",
+      "artists": [
+       {
+        "name": "JENNIE",
+        "spotifyUri": "spotify:artist:250b0Wlc5Vk0CoUsaCY84M",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 14,
+      "previousRank": 8,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "The Fame Monster (Deluxe Edition)",
+      "albumUri": "spotify:album:6rePArBMb5nLWEaY9aQqL4",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025c9890c0456a3719eeecd8aa",
+      "artists": [
+       {
+        "name": "Lady Gaga",
+        "spotifyUri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 15,
+      "previousRank": 13,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "GNX",
+      "albumUri": "spotify:album:0hvT3yIEysuuvkK73vgdcW",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02d9985092cd88bffd97653b58",
+      "artists": [
+       {
+        "name": "Kendrick Lamar",
+        "spotifyUri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 16,
+      "previousRank": 14,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "The Secret of Us (Deluxe)",
+      "albumUri": "spotify:album:0hBRqPYPXhr1RkTDG3n4Mk",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021dac3694b3289cd903cb3acf",
+      "artists": [
+       {
+        "name": "Gracie Abrams",
+        "spotifyUri": "spotify:artist:4tuJ0bMpJh08umKkEXKUI5",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 17,
+      "previousRank": 17,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "I've Tried Everything But Therapy (Part 1)",
+      "albumUri": "spotify:album:7nacKlk586eLRBSIsrk9DB",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e021a0323cc23419360a34a3ace",
+      "artists": [
+       {
+        "name": "Teddy Swims",
+        "spotifyUri": "spotify:artist:33qOK5uJ8AR2xuQQAhHump",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 18,
+      "previousRank": 16,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+      "albumUri": "spotify:album:5H7ixXZfsNMGbIE5OBSpcb",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028ecc33f195df6aa257c39eaa",
+      "artists": [
+       {
+        "name": "Taylor Swift",
+        "spotifyUri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 19,
+      "previousRank": 21,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "AM",
+      "albumUri": "spotify:album:78bpIziExqiI9qztvNFlQu",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+      "artists": [
+       {
+        "name": "Arctic Monkeys",
+        "spotifyUri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 20,
+      "previousRank": 23,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Hurry Up Tomorrow",
+      "albumUri": "spotify:album:3OxfaVgvTxUTy7276t7SPU",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02982320da137d0de34410df61",
+      "artists": [
+       {
+        "name": "The Weeknd",
+        "spotifyUri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 21,
+      "previousRank": 18,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "MUSIC",
+      "albumUri": "spotify:album:0fSfkmx0tdPqFYkJuNX74a",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026b219c8d8462bfe254a20469",
+      "artists": [
+       {
+        "name": "Playboi Carti",
+        "spotifyUri": "spotify:artist:699OTQXzgjhIYAHMy9RyPD",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 22,
+      "previousRank": 22,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Fireworks & Rollerblades",
+      "albumUri": "spotify:album:168CdR21lfn0TTyw1Pkdcm",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cc04ff3e70e146ba9abacf40",
+      "artists": [
+       {
+        "name": "Benson Boone",
+        "spotifyUri": "spotify:artist:22wbnEMDvgVIAGdFeek6ET",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 23,
+      "previousRank": 24,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "SOS",
+      "albumUri": "spotify:album:07w0rG5TETcyihsEIZR3qG",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0270dbc9f47669d120ad874ec1",
+      "artists": [
+       {
+        "name": "SZA",
+        "spotifyUri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 24,
+      "previousRank": 19,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "INCÓMODO",
+      "albumUri": "spotify:album:27GWSFRITD8JJcSGMgEfTN",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0247e9618ef7411438f9c9478b",
+      "artists": [
+       {
+        "name": "Tito Double P",
+        "spotifyUri": "spotify:artist:5eumcnUkdmGvkvcsx1WFNG",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 25,
+      "previousRank": 20,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Brat and it’s completely different but also still brat",
+      "albumUri": "spotify:album:36P07bti6xD99o7S1acmin",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0255a1e72ba425c60a02a9bb47",
+      "artists": [
+       {
+        "name": "Charli xcx",
+        "spotifyUri": "spotify:artist:25uiPmTg16RbhZWAqwLBy5",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 26,
+      "previousRank": 25,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Starboy",
+      "albumUri": "spotify:album:2ODvWsOgouMbaA5xf0RkJe",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e024718e2b124f79258be7bc452",
+      "artists": [
+       {
+        "name": "The Weeknd",
+        "spotifyUri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 27,
+      "previousRank": 26,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "SOUR",
+      "albumUri": "spotify:album:6s84u2TUpR3wdUv4NgKA2j",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a91c10fe9472d9bd89802e5a",
+      "artists": [
+       {
+        "name": "Olivia Rodrigo",
+        "spotifyUri": "spotify:artist:1McMsnEElThX1knmY4oliG",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 28,
+      "previousRank": 28,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "rosie",
+      "albumUri": "spotify:album:7kFyd5oyJdVX2pIi6P4iHE",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e025074bd0894cb1340b8d8a678",
+      "artists": [
+       {
+        "name": "ROSÉ",
+        "spotifyUri": "spotify:artist:3eVa5w3URK5duf6eyVDbu9",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 29,
+      "previousRank": 27,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "The Rise and Fall of a Midwest Princess",
+      "albumUri": "spotify:album:0EiI8ylL0FmWWpgHVTsZjZ",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0296fa88fb1789be437d5cb4b6",
+      "artists": [
+       {
+        "name": "Chappell Roan",
+        "spotifyUri": "spotify:artist:7GlBOeep6PqTfFi59PTUUN",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 30,
+      "previousRank": 31,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "eternal sunshine",
+      "albumUri": "spotify:album:5EYKrEDnKhhcNxGedaRQeK",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+      "artists": [
+       {
+        "name": "Ariana Grande",
+        "spotifyUri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 31,
+      "previousRank": 29,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "$ome $exy $ongs 4 U",
+      "albumUri": "spotify:album:6Rl6YoCarF2GHPSQmmFjuR",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02cc392813bfd8f63d4d5f4a95",
+      "artists": [
+       {
+        "name": "PARTYNEXTDOOR",
+        "spotifyUri": "spotify:artist:2HPaUgqeutzr3jx5a9WyDV",
+        "externalUrl": ""
+       },
+       {
+        "name": "Drake",
+        "spotifyUri": "spotify:artist:3TVXtAsR1Inumwj472S9r4",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 32,
+      "previousRank": 74,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "MAÑANA SERÁ BONITO",
+      "albumUri": "spotify:album:4kS7bSuU0Jm9LYMosFU2x5",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0282de1ca074ae63cb18fce335",
+      "artists": [
+       {
+        "name": "KAROL G",
+        "spotifyUri": "spotify:artist:790FomKkXshlbRYZFtlgla",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 33,
+      "previousRank": 34,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Cosa Nuestra",
+      "albumUri": "spotify:album:0aX0UXrHG2ceYIxTQcqJdA",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ed432d7df981360768dd5856",
+      "artists": [
+       {
+        "name": "Rauw Alejandro",
+        "spotifyUri": "spotify:artist:1mcTU81TzQhprhouKaTkpq",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 34,
+      "previousRank": 30,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "MIJA NO TE ASUSTES",
+      "albumUri": "spotify:album:34OOEmWpj7OnO5kCfal1MO",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0264decb1474ad644038e25d4e",
+      "artists": [
+       {
+        "name": "Clave Especial",
+        "spotifyUri": "spotify:artist:0NlNru2YcUz6RbnpYGQz26",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 35,
+      "previousRank": 32,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Teenage Dream: The Complete Confection",
+      "albumUri": "spotify:album:5BvgP623rtvlc0HDcpzquz",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02937af329667311f4b2831616",
+      "artists": [
+       {
+        "name": "Katy Perry",
+        "spotifyUri": "spotify:artist:6jJ0s89eD6GaHleKKya26X",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 36,
+      "previousRank": 41,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "One Thing At A Time",
+      "albumUri": "spotify:album:6i7mF7whyRJuLJ4ogbH2wh",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
+      "artists": [
+       {
+        "name": "Morgan Wallen",
+        "spotifyUri": "spotify:artist:4oUHIQIBe0LHzYfvXNW4QM",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 37,
+      "previousRank": -1,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NEW_ENTRY",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Sincerely,",
+      "albumUri": "spotify:album:2XhNukk6jDysbSRL7VsqYb",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02a7493f1985f820a9add223d2",
+      "artists": [
+       {
+        "name": "Kali Uchis",
+        "spotifyUri": "spotify:artist:1U1el3k54VvEUzo3ybLPlM",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 38,
+      "previousRank": 36,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Lover",
+      "albumUri": "spotify:album:1NAmidJlEaVgA3MpcPFYGq",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647",
+      "artists": [
+       {
+        "name": "Taylor Swift",
+        "spotifyUri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 39,
+      "previousRank": 37,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "ÉXODO",
+      "albumUri": "spotify:album:5kvw1bAOvzJdNi4hdgfaNf",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e022690127e1d6cd0aa35cc353b",
+      "artists": [
+       {
+        "name": "Peso Pluma",
+        "spotifyUri": "spotify:artist:12GqGscKJx3aE4t07u7eVZ",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 40,
+      "previousRank": 35,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Stick Season",
+      "albumUri": "spotify:album:50ZenUP4O2Q5eCy2NRNvuz",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e026ee35072df1af802cca09918",
+      "artists": [
+       {
+        "name": "Noah Kahan",
+        "spotifyUri": "spotify:artist:2RQXRUsr4IW1f3mKyKsy4B",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 41,
+      "previousRank": 33,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "The Fame",
+      "albumUri": "spotify:album:1qwlxZTNLe1jq3b0iidlue",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02e691217483df8798445c82e2",
+      "artists": [
+       {
+        "name": "Lady Gaga",
+        "spotifyUri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 42,
+      "previousRank": 40,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "÷ (Deluxe)",
+      "albumUri": "spotify:album:3T4tUhGYeRNVUGevb0wThu",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ba5db46f4b838ef6027e6f96",
+      "artists": [
+       {
+        "name": "Ed Sheeran",
+        "spotifyUri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 43,
+      "previousRank": 39,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Born To Die - The Paradise Edition",
+      "albumUri": "spotify:album:5VoeRuTrGhTbKelUfwymwu",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02ebc8cfac8b586bc475b04918",
+      "artists": [
+       {
+        "name": "Lana Del Rey",
+        "spotifyUri": "spotify:artist:00FQb4jTyendYWaN8pK0wa",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 44,
+      "previousRank": 43,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "After Hours",
+      "albumUri": "spotify:album:4yP0hdKOZPNshxUOjY0cZj",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36",
+      "artists": [
+       {
+        "name": "The Weeknd",
+        "spotifyUri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 45,
+      "previousRank": 48,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Cigarettes After Sex",
+      "albumUri": "spotify:album:5chTLnnxlxQVAgEv6YbEBe",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02dfed999f959177dfc4f33cdc",
+      "artists": [
+       {
+        "name": "Cigarettes After Sex",
+        "spotifyUri": "spotify:artist:1QAJqy2dA3ihHBFIHRphZj",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 46,
+      "previousRank": 45,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Blonde",
+      "albumUri": "spotify:album:3mH6qwIy9crq0I9YQbOuDf",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02c5649add07ed3720be9d5526",
+      "artists": [
+       {
+        "name": "Frank Ocean",
+        "spotifyUri": "spotify:artist:2h93pZq0e7k5yf4dywlkpM",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 47,
+      "previousRank": 47,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Doo-Wops & Hooligans",
+      "albumUri": "spotify:album:1uyf3l2d4XYwiEqAb7t7fX",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02f6b55ca93bd33211227b502b",
+      "artists": [
+       {
+        "name": "Bruno Mars",
+        "spotifyUri": "spotify:artist:0du5cEVh5yTK9QJze8zA0C",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 48,
+      "previousRank": 38,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Alligator Bites Never Heal",
+      "albumUri": "spotify:album:60UzB8mOCMpc7xkuJE6Bwc",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b245099fe26319344ddf6054",
+      "artists": [
+       {
+        "name": "Doechii",
+        "spotifyUri": "spotify:artist:4E2rKHVDssGJm2SCDOMMJB",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 49,
+      "previousRank": 49,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "folklore",
+      "albumUri": "spotify:album:2fenSS68JI1h4Fo296JfGr",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e0295f754318336a07e85ec59bc",
+      "artists": [
+       {
+        "name": "Taylor Swift",
+        "spotifyUri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 50,
+      "previousRank": 50,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "albumMetadata": {
+      "albumName": "Good Girl Gone Bad",
+      "albumUri": "spotify:album:4OXnPSBtZo8PBFiTOfuumP",
+      "displayImageUri": "https://i.scdn.co/image/ab67616d00001e02b9ff0a5f40d3406aed5e5e3b",
+      "artists": [
+       {
+        "name": "Rihanna",
+        "spotifyUri": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H",
+        "externalUrl": ""
+       }
+      ],
+      "labels": [],
+      "releaseDate": ""
+     }
+    }
+   ],
+   "highlights": [
+    {
+     "type": "HIGHEST_NEW_ENTRY",
+     "text": "“Even In Arcadia” by Sleep Token is the highest new entry on Top Albums Global at #7.",
+     "displayImageUri": "https://i.scdn.co/image/ab67616d0000b2730e48dcb579fd8e59d0a3c218",
+     "backgroundColor": "#006450",
+     "chartLabel": "Top Albums Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/album-global-weekly/2025-05-15"
+    },
+    {
+     "type": "GREATEST_GAINER",
+     "text": "“Nalar” by Fourtwnty is the biggest gainer on Top Albums Global, up 89 spots at #109.",
+     "displayImageUri": "https://i.scdn.co/image/ab67616d0000b27332ab17f5515e51490841f648",
+     "backgroundColor": "#006450",
+     "chartLabel": "Top Albums Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/album-global-weekly/2025-05-15"
+    },
+    {
+     "type": "LONGEST_STREAK",
+     "text": "“The Fame Monster (Deluxe Edition)” by Lady Gaga has been on Top Albums Global the longest, at 240 weeks straight.",
+     "displayImageUri": "https://i.scdn.co/image/ab67616d0000b2735c9890c0456a3719eeecd8aa",
+     "backgroundColor": "#006450",
+     "chartLabel": "Top Albums Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/album-global-weekly/2025-05-15"
+    },
+    {
+     "type": "ARTIST_WITH_MOST_ENTRIES",
+     "text": "Taylor Swift has the most spots on Top Albums Global. “THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY” is the highest at #18.",
+     "displayImageUri": "https://i.scdn.co/image/ab6761610000e5ebe672b5f553298dcdccb0e676",
+     "backgroundColor": "#006450",
+     "chartLabel": "Top Albums Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/album-global-weekly/2025-05-15"
+    }
+   ],
+   "chartNavigationFilters": []
+  },
+  {
+   "countryFilters": [],
+   "displayChart": {
+    "date": "2025-05-15",
+    "description": "Your weekly update of the most played artists.",
+    "chartMetadata": {
+     "uri": "spotify:chart:1dj0ZooeRa2PnNtWMyMCli",
+     "alias": "ARTIST_GLOBAL_WEEKLY",
+     "entityType": "ARTIST",
+     "readableTitle": "Weekly Top Artists: Global",
+     "backgroundColor": "#2D46B9",
+     "textColor": "#FFFFFF",
+     "dimensions": {
+      "latestDate": "2025-05-15",
+      "earliestDate": "2021-10-21",
+      "country": "GLOBAL",
+      "chartType": "TOP_ARTIST",
+      "recurrence": "WEEKLY",
+      "genre": "",
+      "city": ""
+     }
+    }
+   },
+   "entries": [
+    {
+     "chartEntryData": {
+      "currentRank": 1,
+      "previousRank": 1,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Bad Bunny",
+      "artistUri": "spotify:artist:4q3ewBCX7sLwd24euuV69X",
+      "displayImageUri": "https://i.scdn.co/image/ab6761610000517481f47f44084e0a09b5f0fa13",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 2,
+      "previousRank": 2,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Taylor Swift",
+      "artistUri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174e672b5f553298dcdccb0e676",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 3,
+      "previousRank": 4,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "The Weeknd",
+      "artistUri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 4,
+      "previousRank": 3,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Drake",
+      "artistUri": "spotify:artist:3TVXtAsR1Inumwj472S9r4",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 5,
+      "previousRank": 7,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Fuerza Regida",
+      "artistUri": "spotify:artist:0ys2OFYzWYB5hRDLCsBqxt",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174158a3d24a31166b983e26325",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 6,
+      "previousRank": 6,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Billie Eilish",
+      "artistUri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 7,
+      "previousRank": 5,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Lady Gaga",
+      "artistUri": "spotify:artist:1HY2Jd0NmPuamShAr6KMms",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 8,
+      "previousRank": 8,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Kendrick Lamar",
+      "artistUri": "spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg",
+      "displayImageUri": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 9,
+      "previousRank": 9,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Ariana Grande",
+      "artistUri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 10,
+      "previousRank": 11,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Arijit Singh",
+      "artistUri": "spotify:artist:4YRxDV8wJFPHPTeXepOstw",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 11,
+      "previousRank": 10,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Bruno Mars",
+      "artistUri": "spotify:artist:0du5cEVh5yTK9QJze8zA0C",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174c36dd9eb55fb0db4911f25dd",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 12,
+      "previousRank": 13,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Travis Scott",
+      "artistUri": "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY",
+      "displayImageUri": "https://i.scdn.co/image/ab6761610000517419c2790744c792d05570bb71",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 13,
+      "previousRank": 12,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "SZA",
+      "artistUri": "spotify:artist:7tYKF4w9nC0nq9CsPZTHyP",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174fd0a9fb6c252a3ba44079acf",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 14,
+      "previousRank": 19,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Morgan Wallen",
+      "artistUri": "spotify:artist:4oUHIQIBe0LHzYfvXNW4QM",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051744245b1652fcc23f2b76ccd07",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 15,
+      "previousRank": 15,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Rauw Alejandro",
+      "artistUri": "spotify:artist:1mcTU81TzQhprhouKaTkpq",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051745b50fae60980240b4ebd7808",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 16,
+      "previousRank": 14,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Lana Del Rey",
+      "artistUri": "spotify:artist:00FQb4jTyendYWaN8pK0wa",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 17,
+      "previousRank": 17,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Peso Pluma",
+      "artistUri": "spotify:artist:12GqGscKJx3aE4t07u7eVZ",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174e5283f5b671cf618b82a2696",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 18,
+      "previousRank": 21,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Kanye West",
+      "artistUri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 19,
+      "previousRank": 20,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Rihanna",
+      "artistUri": "spotify:artist:5pKCCKE2ajJHZ9KAiaK11H",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174373e1be0410d4212bf72acab",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 20,
+      "previousRank": 18,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Coldplay",
+      "artistUri": "spotify:artist:4gzpq5DPGxSnKTe4SA8HAU",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051741ba8fc5f5c73e7e9313cc6eb",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 21,
+      "previousRank": 39,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "KAROL G",
+      "artistUri": "spotify:artist:790FomKkXshlbRYZFtlgla",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051744b0754aefc9db490e02205ec",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 22,
+      "previousRank": 16,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Neton Vega",
+      "artistUri": "spotify:artist:6pV5zH2LzjOUHaAvENdMMa",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051742fcd184b0b566e4e8f550ef8",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 23,
+      "previousRank": 23,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Pritam",
+      "artistUri": "spotify:artist:1wRPtKGflJrBx9BmLsSwlU",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 24,
+      "previousRank": 24,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Playboi Carti",
+      "artistUri": "spotify:artist:699OTQXzgjhIYAHMy9RyPD",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174ba50ca67ffc3097f6ea1710a",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 25,
+      "previousRank": 25,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Future",
+      "artistUri": "spotify:artist:1RyvyyTE3xzB2ZywiAwp0i",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051747565b356bc9d9394eefa2ccb",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 26,
+      "previousRank": 22,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Tito Double P",
+      "artistUri": "spotify:artist:5eumcnUkdmGvkvcsx1WFNG",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051748dbd48dd0881bfeb24bb38aa",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 27,
+      "previousRank": 26,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Sabrina Carpenter",
+      "artistUri": "spotify:artist:74KM79TiuVKeVCqs8QtB0B",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174e053b8338322b9c8609ee7ae",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 28,
+      "previousRank": 27,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Ed Sheeran",
+      "artistUri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174399444ed4eace08b549d1161",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 29,
+      "previousRank": 28,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Linkin Park",
+      "artistUri": "spotify:artist:6XyY86QOPPrYVGvF9ch6wz",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174a49c7eec5131a21a0bfb737b",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 30,
+      "previousRank": 30,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Eminem",
+      "artistUri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 31,
+      "previousRank": 29,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Justin Bieber",
+      "artistUri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051748ae7f2aaa9817a704a87ea36",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 32,
+      "previousRank": 31,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "J Balvin",
+      "artistUri": "spotify:artist:1vyhD5VmyZ7KMfW5gqLgo5",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051744a350b04a3f9bb77a30b004e",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 33,
+      "previousRank": 33,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Post Malone",
+      "artistUri": "spotify:artist:246dkjvS1zLTtiykXe5h60",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 34,
+      "previousRank": 36,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Tate McRae",
+      "artistUri": "spotify:artist:45dkTj5sMRSjrmBSBeiHym",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174590259e859082dc3b661b8ac",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 35,
+      "previousRank": 34,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "David Guetta",
+      "artistUri": "spotify:artist:1Cs0zKBU1kc0i8ypK3B9ai",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174f150017ca69c8793503c2d4f",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 36,
+      "previousRank": 32,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Junior H",
+      "artistUri": "spotify:artist:7Gi6gjaWy3DxyilpF1a8Is",
+      "displayImageUri": "https://i.scdn.co/image/ab6761610000517450998d90507d8c1603b2530b",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 37,
+      "previousRank": 35,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Feid",
+      "artistUri": "spotify:artist:2LRoIwlKmHjgvigdNGBHNo",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051745e9905f881de7345f498258e",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 38,
+      "previousRank": 37,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Tyler, The Creator",
+      "artistUri": "spotify:artist:4V8LLVI7PbaPR0K2TGSxFF",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174dfa2b0c7544a772042a12e52",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 39,
+      "previousRank": 189,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Sleep Token",
+      "artistUri": "spotify:artist:2n2RSaZqBuUUukhbLlpnE6",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174d00c2ff422829437e6b5f1e0",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 40,
+      "previousRank": 38,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Maroon 5",
+      "artistUri": "spotify:artist:04gDigrS5kc9YWfZHwBETP",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174f8349dfb619a7f842242de77",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 41,
+      "previousRank": 52,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Calvin Harris",
+      "artistUri": "spotify:artist:7CajNmpbOovFoOoasH2HaY",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051741e4bcd2bef1896648762dd6b",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 42,
+      "previousRank": 42,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "NO_CHANGE",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Beéle",
+      "artistUri": "spotify:artist:7a0XAaPaK2aDSqa8p3QnC7",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051748e10d05db45e77a86256fc5d",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 43,
+      "previousRank": 41,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Dua Lipa",
+      "artistUri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 44,
+      "previousRank": 43,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Anuel AA",
+      "artistUri": "spotify:artist:2R21vXR83lH98kGeO99Y66",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174a23ceb177745632b517cb7b2",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 45,
+      "previousRank": 46,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Shakira",
+      "artistUri": "spotify:artist:0EmeFodog0BfCgMzAIvKQp",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051742528c726e5ddb90a7197e527",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 46,
+      "previousRank": 40,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Beyoncé",
+      "artistUri": "spotify:artist:6vWDO969PvNqNYHIOW5v0m",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 47,
+      "previousRank": 44,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "PARTYNEXTDOOR",
+      "artistUri": "spotify:artist:2HPaUgqeutzr3jx5a9WyDV",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174957320981e31e862bc2fb844",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 48,
+      "previousRank": 51,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Chris Brown",
+      "artistUri": "spotify:artist:7bXgB6jMjp9ATFy66eO08Z",
+      "displayImageUri": "https://i.scdn.co/image/ab67616100005174a48397e590a1c70e2cda7728",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 49,
+      "previousRank": 53,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_UP",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Benson Boone",
+      "artistUri": "spotify:artist:22wbnEMDvgVIAGdFeek6ET",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051749a39ecd2481c38174aa36260",
+      "socialMedia": []
+     }
+    },
+    {
+     "chartEntryData": {
+      "currentRank": 50,
+      "previousRank": 47,
+      "peakRank": 0,
+      "peakDate": "",
+      "appearancesOnChart": 0,
+      "consecutiveAppearancesOnChart": 0,
+      "entryStatus": "MOVED_DOWN",
+      "entryRank": 0,
+      "entryDate": ""
+     },
+     "missingRequiredFields": false,
+     "artistMetadata": {
+      "artistName": "Zach Bryan",
+      "artistUri": "spotify:artist:40ZNYROS4zLfyyBSs2PGe2",
+      "displayImageUri": "https://i.scdn.co/image/ab676161000051744fd54df35bfcfa0fc9fc2da7",
+      "socialMedia": []
+     }
+    }
+   ],
+   "highlights": [
+    {
+     "type": "HIGHEST_NEW_ENTRY",
+     "text": "Fourtwnty is the highest new entry on Top Artists Global at #191.",
+     "displayImageUri": "https://i.scdn.co/image/ab6761610000e5ebd56a4e114e63de49e1458707",
+     "backgroundColor": "#2D46B9",
+     "chartLabel": "Top Artists Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/artist-global-weekly/2025-05-15"
+    },
+    {
+     "type": "GREATEST_GAINER",
+     "text": "Sleep Token is the biggest gainer on Top Artists Global, up 150 spots at #39.",
+     "displayImageUri": "https://i.scdn.co/image/ab6761610000e5ebd00c2ff422829437e6b5f1e0",
+     "backgroundColor": "#2D46B9",
+     "chartLabel": "Top Artists Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/artist-global-weekly/2025-05-15"
+    },
+    {
+     "type": "LONGEST_STREAK",
+     "text": "Bad Bunny has been on Top Artists Global the longest, at 187 weeks straight.",
+     "displayImageUri": "https://i.scdn.co/image/ab6761610000e5eb81f47f44084e0a09b5f0fa13",
+     "backgroundColor": "#2D46B9",
+     "chartLabel": "Top Artists Global · May 9 - 15, 2025",
+     "dateLabel": "",
+     "chartUri": "/charts/view/artist-global-weekly/2025-05-15"
+    }
+   ],
+   "chartNavigationFilters": []
+  }
+ ]
+}

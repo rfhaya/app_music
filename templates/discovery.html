@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en" class="color-sidebar sidebarcolor4">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="{{ url_for('static', filename='assets/images/logos.png') }}" type="image/png" />
+	<!--plugins-->
+	<link href="{{ url_for('static', filename='assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+	<link href="{{ url_for('static', filename='assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
+	<!-- loader-->
+	<link href="{{ url_for('static', filename='assets/css/pace.min.css') }}" rel="stylesheet" />
+	<script src="{{ url_for('static', filename='assets/js/pace.min.js') }}"></script>
+	<!-- Bootstrap CSS -->
+	<link href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/bootstrap-extended.css') }}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/app.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/icons.css') }}" rel="stylesheet">
+	<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header-colors.css') }}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/discovery.css') }}" />
+</head>
+
+<body>
+	<!--wrapper-->
+	<div class="wrapper sidebarcolor4">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper d-flex flex-column">
+			<div class="sidebar-header">
+				<div>
+					<img src="{{ url_for('static', filename='assets/images/logos.png') }}" class="logo-icon"
+						alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Harmony</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i></div>
+			</div>
+			<!--navigation-->
+			<div class="sidebar-menu flex-grow-1 overflow-auto" data-simplebar>
+				<ul class="metismenu" id="menu">
+					<li class="menu-label">Search</li>
+					<li>
+						<form action="{{ url_for('search') }}" method="get" class="position-relative m-2">
+							<input id="searchInput" type="text" name="q" class="form-control"
+								placeholder="Search songs, artists, genres..." required>
+						</form>
+					</li>
+
+					<li class="menu-label">Menu</li>
+					<li>
+						<a href="{{ url_for('index') }}">
+							<div class="parent-icon"><i class='bx bxs-home-circle'></i>
+							</div>
+							<div class="menu-title">Home</div>
+						</a>
+					</li>
+					<li class="mm-active">
+						<a href="{{ url_for('discovery') }}">
+							<div class="parent-icon"><i class='bx bx-compass'></i>
+							</div>
+							<div class="menu-title">Discover</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('search') }}">
+							<div class="parent-icon"><i class='bx bx-merge'></i>
+							</div>
+							<div class="menu-title">Browse</div>
+						</a>
+					</li>
+					<li class="menu-label">Recommendation</li>
+					<li>
+						<a href="{{ url_for('popular') }}">
+							<div class="parent-icon"><i class='bx bxs-star'></i>
+							</div>
+							<div class="menu-title">Popular</div>
+						</a>
+					</li>
+					<li class="menu-label">Library</li>
+					<li>
+						<a href="{{ url_for('genresong') }}">
+							<div class="parent-icon"><i class='bx bxs-hot'></i>
+							</div>
+							<div class="menu-title">Genre</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('artists') }}">
+							<div class="parent-icon"><i class='bx bxs-user'></i>
+							</div>
+							<div class="menu-title">Artists</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="sidebar-profile text-white d-flex align-items-center p-3">
+				<img src="{{ session.get('user_image') or url_for('static', filename='assets/images/avatars/hacker.png') }}"
+					class="rounded-circle me-2" width="50" height="50" alt="User Avatar">
+				<div class="profile-info">
+					<div class="fw-bold">{{ session.get('user_name', 'Guest') }}</div>
+					<div class="text-muted small">{{ session.get('user_product', 'Free') }} Member</div>
+				</div>
+			</div>
+
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu d-md-none"><i class='bx bx-menu'></i></div>
+				</nav>
+			</div>
+		</header>
+		<!--end header -->
+		<!--start page wrapper -->
+		<div class="page-wrapper-discover">
+			<div class="page-content text-white page-content-discovery">
+				<div class="bg-image"></div>
+				<div class="overlay"></div>
+
+				<div class="content container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<h6 class="text-white-50">Public Playlist</h6>
+							<div class="playlist-title mb-4">
+								<h1 class="fw-bold display-4 text-white">Discover Weekly</h1>
+								<p class="text-white-50 mb-0" style="font-size: 0.7rem;">
+									Your weekly mixtape of fresh music. Enjoy new music and deep cuts picked for you.
+									Updates every Monday.
+								</p>
+							</div>
+
+							<div class="mt-4" id="track-container" style="max-height: 300px; overflow-y: auto;">
+								{% for track in tracks %}
+								<div class="track-item d-flex align-items-center py-2">
+									<img src="{{ track.image }}" width="60" class="me-3">
+									<div>
+										<strong>{{ track.title }}</strong><br>
+										<small>{{ track.artist }}</small><br>
+										<a href="{{ track.spotify_url }}" target="_blank" style="color: #1DB954;">Open
+											in Spotify</a><br>
+										{% if track.preview_url %}
+										<audio controls src="{{ track.preview_url }}"></audio>
+										{% else %}
+										<small><em>No preview available</em></small>
+										{% endif %}
+									</div>
+								</div>
+								<hr>
+								{% endfor %}
+
+							</div>
+						</div>
+
+						<div class="col-md-6 text-end">
+							<img id="preview-image" src="{{ tracks[0].image }}" class="rounded mb-3" width="140">
+							<h1 class="text-white" id="preview-title">{{ tracks[0].title }}</h1>
+							<p id="preview-artist">{{ tracks[0].artist }}</p>
+							<a id="preview-link" href="{{ tracks[0].spotify_url }}" target="_blank"
+								class="badge text-bg-warning" style="font-size: large;">#OpenOnSpotify</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end page wrapper -->
+	</div>
+	<!--end wrapper-->
+
+	<!-- jQuery HARUS pertama -->
+	<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+
+	<!-- Kemudian Bootstrap & plugin -->
+	<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/index.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
+	<script>
+		const allTracks = {{ tracks | tojson | safe }};
+		let visibleCount = 10;
+
+		function renderTracks() {
+			const container = document.getElementById("track-container");
+			container.innerHTML = "";
+
+			for (let i = 0; i < visibleCount && i < allTracks.length; i++) {
+				const track = allTracks[i];
+				const trackHtml = `
+					<div class="track-item d-flex align-items-center py-2" onclick="updatePreview(${i})">
+						<i class='bx bx-play'></i>
+						<div class="ms-3">
+							<strong>${track.title}</strong><br>
+							<small>${track.artist}</small>
+						</div>
+					</div>`;
+				container.insertAdjacentHTML("beforeend", trackHtml);
+			}
+		}
+
+		function updatePreview(index) {
+			const track = allTracks[index];
+			document.getElementById("preview-image").src = track.image;
+			document.getElementById("preview-title").textContent = track.title;
+			document.getElementById("preview-artist").textContent = track.artist;
+			document.getElementById("preview-link").href = track.spotify_url;
+
+			const audio = document.getElementById("preview-audio");
+			if (track.preview_url) {
+				audio.src = track.preview_url;
+				audio.style.display = "block";
+				audio.play();
+			} else {
+				audio.pause();
+				audio.src = "";
+				audio.style.display = "none";
+			}
+		}
+
+		document.addEventListener("DOMContentLoaded", function () {
+			const container = document.getElementById("track-container");
+
+			container.addEventListener("scroll", function () {
+				if (container.scrollTop + container.clientHeight >= container.scrollHeight - 10) {
+					visibleCount += 10;
+					renderTracks();
+				}
+			});
+
+			renderTracks();
+			updatePreview(0); // preview pertama
+		});
+	</script>
+</body>

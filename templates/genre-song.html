@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en" class="color-sidebar sidebarcolor4">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="{{ url_for('static', filename='assets/images/logos.png') }}" type="image/png" />
+	<!--plugins-->
+	<link href="{{ url_for('static', filename='assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+	<link href="{{ url_for('static', filename='assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
+	<!-- loader-->
+	<link href="{{ url_for('static', filename='assets/css/pace.min.css') }}" rel="stylesheet" />
+	<script src="{{ url_for('static', filename='assets/js/pace.min.js') }}"></script>
+	<!-- Bootstrap CSS -->
+	<link href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/bootstrap-extended.css') }}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/app.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/icons.css') }}" rel="stylesheet">
+	<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header-colors.css') }}" />
+</head>
+
+<body>
+	<!--wrapper-->
+	<div class="wrapper sidebarcolor4">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper d-flex flex-column">
+			<div class="sidebar-header">
+				<div>
+					<img src="{{ url_for('static', filename='assets/images/logos.png') }}" class="logo-icon"
+						alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Harmony</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i></div>
+			</div>
+			<!--navigation-->
+			<div class="sidebar-menu flex-grow-1 overflow-auto" data-simplebar>
+				<ul class="metismenu" id="menu">
+					<li class="menu-label">Search</li>
+					<li>
+						<form action="{{ url_for('search') }}" method="get" class="position-relative m-2">
+							<input id="searchInput" type="text" name="q" class="form-control"
+								placeholder="Search songs, artists, genres..." required>
+						</form>
+					</li>
+
+					<li class="menu-label">Menu</li>
+					<li>
+						<a href="{{ url_for('index') }}">
+							<div class="parent-icon"><i class='bx bxs-home-circle'></i>
+							</div>
+							<div class="menu-title">Home</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('discovery') }}">
+							<div class="parent-icon"><i class='bx bx-compass'></i>
+							</div>
+							<div class="menu-title">Discover</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('search') }}">
+							<div class="parent-icon"><i class='bx bx-merge'></i>
+							</div>
+							<div class="menu-title">Browse</div>
+						</a>
+					</li>
+					<li class="menu-label">Recommendation</li>
+					<li>
+						<a href="{{ url_for('popular') }}">
+							<div class="parent-icon"><i class='bx bxs-star'></i>
+							</div>
+							<div class="menu-title">Popular</div>
+						</a>
+					</li>
+					<li class="menu-label">Library</li>
+					<li class="mm-active">
+						<a href="{{ url_for('genresong') }}">
+							<div class="parent-icon"><i class='bx bxs-hot'></i>
+							</div>
+							<div class="menu-title">Genre</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('artists') }}">
+							<div class="parent-icon"><i class='bx bxs-user'></i>
+							</div>
+							<div class="menu-title">Artists</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="sidebar-profile text-white d-flex align-items-center p-3">
+				<img src="{{ session.get('user_image') or url_for('static', filename='assets/images/avatars/hacker.png') }}"
+					class="rounded-circle me-2" width="50" height="50" alt="User Avatar">
+				<div class="profile-info">
+					<div class="fw-bold">{{ session.get('user_name', 'Guest') }}</div>
+					<div class="text-muted small">{{ session.get('user_product', 'Free') }} Member</div>
+				</div>
+			</div>
+
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu d-md-none"><i class='bx bx-menu'></i></div>
+				</nav>
+			</div>
+		</header>
+		<!--end header -->
+		<!--start page wrapper -->
+		<div class="page-wrapper">
+			<div class="page-content text-dark">
+				<div class="row mt-4">
+					<div class="col-md-12 mb-5 pb-2">
+						<div style="margin-top: 3rem; margin-bottom: 2rem;">
+							<h2 class="text-secondary text-uppercase small fw-semibold text-white">List Of</h2>
+							<h1 class="display-6 fw-bold mb-4 text-white">Summaries Genres </h1>
+						</div>
+						<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3">
+							{% for genre in genres|sort %}
+							{% set bg_image = url_for('static', filename='assets/images/genres/' + genre|lower|replace('
+							', '-') + '.jpg') %}
+							<div class="col">
+								<a href="{{ url_for('genre_detail', genre_name=genre) }}"
+									class="text-decoration-none text-white gap-2">
+									<div class="genre-card position-relative overflow-hidden rounded-3 shadow-sm">
+										<!-- Background Blur Layer -->
+										<div class="position-absolute top-0 start-0 w-100 h-100" style="
+												 background-image: url('{{ url_for('static', filename='assets/images/genres/' + genre|lower|replace(' ', '-') + '.jpg') }}');
+												 background-size: cover;
+												 background-position: center;
+												 filter: blur(4px);
+											 ">
+										</div>
+
+										<!-- Overlay with Text -->
+										<div class="position-relative px-3 py-2 d-flex align-items-center h-100"
+											style="background-color: rgba(12, 12, 12, 0.6);">
+											<span class="fw-semibold text-white" style="font-size: large;">
+												<i class='bx bx-music'></i> {{ genre|title }}
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Page Wrapper -->
+	</div>
+	<!--end wrapper-->
+
+	<!-- jQuery HARUS pertama -->
+	<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+
+	<!-- Kemudian Bootstrap & plugin -->
+	<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/index.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
+</body>

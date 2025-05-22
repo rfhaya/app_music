@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en" class="color-sidebar sidebarcolor4">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="{{ url_for('static', filename='assets/images/logos.png') }}" type="image/png" />
+	<!--plugins-->
+	<link href="{{ url_for('static', filename='assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+	<link href="{{ url_for('static', filename='assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
+	<!-- loader-->
+	<link href="{{ url_for('static', filename='assets/css/pace.min.css') }}" rel="stylesheet" />
+	<script src="{{ url_for('static', filename='assets/js/pace.min.js') }}"></script>
+	<!-- Bootstrap CSS -->
+	<link href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/bootstrap-extended.css') }}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/app.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/icons.css') }}" rel="stylesheet">
+	<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header-colors.css') }}" />
+</head>
+
+<body>
+	<!--wrapper-->
+	<div class="wrapper sidebarcolor4">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper d-flex flex-column">
+			<div class="sidebar-header">
+				<div>
+					<img src="{{ url_for('static', filename='assets/images/logos.png') }}" class="logo-icon"
+						alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Harmony</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i></div>
+			</div>
+			<!--navigation-->
+			<div class="sidebar-menu flex-grow-1 overflow-auto" data-simplebar>
+				<ul class="metismenu" id="menu">
+					<li class="menu-label">Search</li>
+					<li>
+						<form action="{{ url_for('search') }}" method="get" class="position-relative m-2">
+							<input id="searchInput" type="text" name="q" class="form-control"
+								placeholder="Search songs, artists, genres..." required>
+						</form>
+					</li>
+
+					<li class="menu-label">Menu</li>
+					<li>
+						<a href="{{ url_for('index') }}">
+							<div class="parent-icon"><i class='bx bxs-home-circle'></i>
+							</div>
+							<div class="menu-title">Home</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="{{ url_for('discovery') }}">
+							<div class="parent-icon"><i class='bx bx-compass'></i>
+							</div>
+							<div class="menu-title">Discover</div>
+						</a>
+					</li>
+
+					<li class="mm-active">
+						<a href="{{ url_for('search') }}">
+							<div class="parent-icon"><i class='bx bx-merge'></i>
+							</div>
+							<div class="menu-title">Browse</div>
+						</a>
+					</li>
+
+					<li class="menu-label">Recommendation</li>
+					<li>
+						<a href="{{ url_for('popular') }}">
+							<div class="parent-icon"><i class='bx bxs-star'></i>
+							</div>
+							<div class="menu-title">Popular</div>
+						</a>
+					</li>
+					<li class="menu-label">Library</li>
+					<li>
+						<a href="{{ url_for('genresong') }}">
+							<div class="parent-icon"><i class='bx bxs-hot'></i>
+							</div>
+							<div class="menu-title">Genre</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('artists') }}">
+							<div class="parent-icon"><i class='bx bxs-user'></i>
+							</div>
+							<div class="menu-title">Artists</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="sidebar-profile text-white d-flex align-items-center p-3">
+				<img src="{{ session.get('user_image') or url_for('static', filename='assets/images/avatars/hacker.png') }}"
+					class="rounded-circle me-2" width="50" height="50" alt="User Avatar">
+				<div class="profile-info">
+					<div class="fw-bold">{{ session.get('user_name', 'Guest') }}</div>
+					<div class="text-muted small">{{ session.get('user_product', 'Free') }} Member</div>
+				</div>
+			</div>
+
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu d-md-none"><i class='bx bx-menu'></i></div>
+				</nav>
+			</div>
+		</header>
+		<!--end header -->
+		<!--start page wrapper -->
+		<div class="page-wrapper">
+			<div class="page-content">
+				<div class="row">
+					<div style="padding-top: 5rem; padding-bottom: 2rem; text-align: center;">
+						<h2 class="text-secondary text-uppercase small fw-semibold text-white">Explore More Music</h2>
+						<h1 class="display-6 fw-bold mb-4 text-white">Search Across All Music Categories</h1>
+					</div>
+
+					<!-- Search Bar -->
+					<div class="mb-5">
+						<form action="{{ url_for('search') }}" method="get"
+							class="d-flex align-items-center rounded-pill shadow-sm overflow-hidden bg-white"
+							style="padding: 0.3rem 1rem;">
+							<input type="text" name="q" class="form-control border-0"
+								placeholder="What are you want to search? Songs? an Artists? or a Genre?"
+								value="{{ query }}" required>
+							<button type="submit" class="btn p-0 d-flex align-items-center justify-content-center"
+								style="width: 42px; height: 42px; border-radius: 50%; background-color: #007bff;">
+								<i class="bx bx-search"
+									style="font-size: 20px; transform: translateX(2px); color: white;"></i>
+							</button>
+						</form>
+					</div>
+
+					{% if query %}
+					<div class="row">
+						<!-- Left Column - Songs -->
+						<div class="col-lg-8" style="max-height: 500px; overflow-y: auto;">
+							<h5 class="text-white fw-semibold mb-3">Top Picks</h5>
+							<div class="row g-2">
+								{% if songs %}
+								{% for song in songs %}
+								<div class="col-md-4">
+									<div class="card shadow-sm overflow-hidden bg-dark text-white border-0"
+										style="height: 85%;">
+										<div class="row g-0 align-items-center">
+											<div class="col-8">
+												<div class="card-body">
+													<h6 class="card-title mb-1 text-white"
+														style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+														{{ song.track_name }}
+													</h6>
+													<p class="card-text small text-white-50 mb-1"
+														style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+														{{ song.artists | join(', ') }}
+													</p>
+													<span class="badge bg-secondary">Popularity: {{ song.popularity
+														}}</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								{% endfor %}
+								{% else %}
+								<p class="text-muted">No songs found.</p>
+								{% endif %}
+							</div>
+						</div>
+
+						<!-- Right Column - Artists and Genres -->
+						<div class="col-lg-4">
+							<!-- Top Artists -->
+							<h5 class="text-white fw-semibold mb-3">Top Artists</h5>
+							<div class="list-group list-group-flush mb-4" style="max-height: 206px; overflow-y: auto;">
+								{% if artists %}
+								{% for artist in artists %}
+								<a href="{{ url_for('artist_page', key=artist.key) }}"
+									class="list-group-item list-group-item-action d-flex align-items-center bg-dark text-white rounded-3 mb-2">
+									<img src="{{ artist.image }}" alt="Artist" class="rounded-circle me-3" width="50"
+										height="50" style="object-fit: cover;">
+									<div>
+										<div class="fw-semibold">{{ artist.name }}</div>
+										<div class="text-white-50 small">Artist Profile</div>
+									</div>
+								</a>
+								{% endfor %}
+								{% else %}
+								<p class="text-muted">No artists found.</p>
+								{% endif %}
+
+								{% if suggested_artist %}
+								<p class="text-warning mt-3">Are you mean <a
+										href="{{ url_for('artist_page', key=suggested_artist.key) }}"
+										class="text-warning fw-bold">{{ suggested_artist.name }}</a>?</p>
+								{% endif %}
+							</div>
+
+							<!-- Genres -->
+							<h5 class="text-white fw-semibold mb-3">Genres</h5>
+							<div class="row row-cols-1 g-3" style="max-height: 206px; overflow-y: auto;">
+								{% if genres %}
+								{% for genre in genres %}
+								<div class="col">
+									<a href="{{ url_for('genre_detail', genre_name=genre.genre|lower|replace(' ', '-')) }}"
+										class="text-decoration-none text-white">
+										<div class="bg-dark p-3 rounded-3 h-100 shadow-sm">
+											<h6 class="fw-bold mb-1 text-white">{{ genre.genre }}</h6>
+											<p class="text-white-50 small mb-0">{{ genre.description }}</p>
+										</div>
+									</a>
+								</div>
+								{% endfor %}
+								{% else %}
+								<p class="text-muted">No genres found.</p>
+								{% endif %}
+
+								{% if not genres and suggested_genre %}
+								<p class="text-warning mt-2">
+									Did you mean
+									<a href="{{ url_for('genre_detail', genre_name=suggested_genre.genre|lower|replace(' ', '-')) }}"
+										class="text-warning fw-bold text-decoration-underline">
+										{{ suggested_genre.genre }}
+									</a>?
+								</p>
+								{% endif %}
+							</div>
+						</div>
+					</div>
+					{% endif %}
+
+				</div>
+
+			</div>
+		</div>
+		<!--end page wrapper -->
+	</div>
+	<!--end wrapper-->
+
+	<!-- jQuery HARUS pertama -->
+	<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+
+	<!-- Kemudian Bootstrap & plugin -->
+	<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/index.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
+</body>

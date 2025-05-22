@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Sunset Drive",
+        "artist": "Lo-Fi Beats",
+        "cover": "assets/cover.png",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+        "title": "Morning Coffee",
+        "artist": "Jazz Vibes",
+        "cover": "assets/cover.png",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+        {
+        "title": "Sunset Drive",
+        "artist": "Lo-Fi Beats",
+        "cover": "assets/cover.png",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+        "title": "Morning Coffee",
+        "artist": "Jazz Vibes",
+        "cover": "assets/cover.png",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+        {
+        "title": "Sunset Drive",
+        "artist": "Lo-Fi Beats",
+        "cover": "assets/cover.png",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    },
+    {
+        "title": "Morning Coffee",
+        "artist": "Jazz Vibes",
+        "cover": "assets/cover.png",
+        "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    }
+]

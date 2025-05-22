@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en" class="color-sidebar sidebarcolor4">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="{{ url_for('static', filename='assets/images/logos.png') }}" type="image/png" />
+	<!--plugins-->
+	<link href="{{ url_for('static', filename='assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />
+	<link href="{{ url_for('static', filename='assets/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
+	<!-- loader-->
+	<link href="{{ url_for('static', filename='assets/css/pace.min.css') }}" rel="stylesheet" />
+	<script src="{{ url_for('static', filename='assets/js/pace.min.js') }}"></script>
+	<!-- Bootstrap CSS -->
+	<link href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/bootstrap-extended.css') }}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/app.css') }}" rel="stylesheet">
+	<link href="{{ url_for('static', filename='assets/css/icons.css') }}" rel="stylesheet">
+	<!-- Theme Style CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header-colors.css') }}" />
+</head>
+
+<body>
+	<!--wrapper-->
+	<div class="wrapper sidebarcolor4">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper d-flex flex-column">
+			<div class="sidebar-header">
+				<div>
+					<img src="{{ url_for('static', filename='assets/images/logos.png') }}" class="logo-icon"
+						alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Harmony</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i></div>
+			</div>
+			<!--navigation-->
+			<div class="sidebar-menu flex-grow-1 overflow-auto" data-simplebar>
+				<ul class="metismenu" id="menu">
+					<li class="menu-label">Search</li>
+					<li>
+						<form action="{{ url_for('search') }}" method="get" class="position-relative m-2">
+							<input id="searchInput" type="text" name="q" class="form-control"
+								placeholder="Search songs, artists, genres..." required>
+						</form>
+					</li>
+
+					<li class="menu-label">Menu</li>
+					<li class="mm-active">
+						<a href="{{ url_for('index') }}">
+							<div class="parent-icon"><i class='bx bxs-home-circle'></i>
+							</div>
+							<div class="menu-title">Home</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="{{ url_for('discovery') }}">
+							<div class="parent-icon"><i class='bx bx-compass'></i>
+							</div>
+							<div class="menu-title">Discover</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="{{ url_for('search') }}">
+							<div class="parent-icon"><i class='bx bx-merge'></i>
+							</div>
+							<div class="menu-title">Browse</div>
+						</a>
+					</li>
+
+					<li class="menu-label">Recommendation</li>
+					<li>
+						<a href="{{ url_for('popular') }}">
+							<div class="parent-icon"><i class='bx bxs-star'></i>
+							</div>
+							<div class="menu-title">Popular</div>
+						</a>
+					</li>
+
+					<li class="menu-label">Library</li>
+
+					<li>
+						<a href="{{ url_for('genresong') }}">
+							<div class="parent-icon"><i class='bx bxs-hot'></i>
+							</div>
+							<div class="menu-title">Genre</div>
+						</a>
+					</li>
+					<li>
+						<a href="{{ url_for('artists') }}">
+							<div class="parent-icon"><i class='bx bxs-user'></i>
+							</div>
+							<div class="menu-title">Artists</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="sidebar-profile text-white d-flex align-items-center p-3">
+				<img src="{{ session.get('user_image') or url_for('static', filename='assets/images/avatars/hacker.png') }}"
+					class="rounded-circle me-2" width="50" height="50" alt="User Avatar">
+				<div class="profile-info">
+					<div class="fw-bold">{{ session.get('user_name', 'Guest') }}</div>
+					<div class="text-muted small">{{ session.get('user_product', 'Free') }} Member</div>
+				</div>
+			</div>
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu d-md-none"><i class='bx bx-menu'></i></div>
+				</nav>
+			</div>
+		</header>
+		<!--end header -->
+		<!--start page wrapper -->
+		<div class="page-wrapper">
+			<div class="page-content">
+				<div class="row">
+					<div class="col-md-12 mb-5 pb-2">
+						{% if trending %}
+						<div>
+							<div style="padding-top: 4rem; padding-bottom: 2rem; text-align: center;">
+								<h2 class="text-secondary text-uppercase small fw-semibold text-white">Feel the Rhythm
+								</h2>
+								<h1 class="display-6 fw-bold text-white">THIS WEEK'S SPOTLIGHT ARTIST</h1>
+							</div>
+
+							<a href="{{ url_for('discovery') }}">
+								<div class="card text-white border-0 overflow-hidden position-relative"
+									style="box-shadow: none; background-image: url('{{ trending.image }}'); background-size: cover; background-position: center; min-height: 220px; border-radius: 20px;">
+
+									<!-- Overlay gradient -->
+									<div class="position-absolute top-0 start-0 w-100 h-100"
+										style="background: rgba(0, 0, 0, 0.5);"></div>
+
+									<div
+										class="card-body position-relative d-flex flex-column justify-content-between h-100 p-4 gap-3">
+										<div class="d-flex justify-content-between align-items-start">
+											<h6 class="text-light opacity-75">Artist</h6>
+											<div class="d-flex flex-column text-end">
+												<h6 class="text-light opacity-75">Most Listeners</h6>
+											</div>
+										</div>
+
+										<h1 class="fw-bold mb-4 text-white" style="font-size: 50px;">
+											{{ trending.name }}
+										</h1>
+
+										<div class="d-flex gap-3">
+											<a href="{{ trending.spotify_url }}" target="_blank"
+												class="btn btn-danger rounded-pill px-4 d-flex align-items-center gap-2">
+												<i class="bx bx-play"></i> Play
+											</a>
+											<a href="{{ trending.spotify_url }}" target="_blank"
+												class="btn btn-outline-light rounded-pill px-4">
+												Follow
+											</a>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						{% else %}
+						<div class="alert alert-warning text-white bg-warning bg-opacity-25 rounded">
+							Unable to load trending artist at the moment.
+						</div>
+						{% endif %}
+
+					</div>
+
+					<div class="col-md-12 mb-5 pb-2">
+						<div class="d-flex justify-content-between align-items-center mb-4">
+							<h2 class="text-uppercase fw-semibold text-white mb-0">Genre</h2>
+							<a href="{{ url_for('genresong') }}"
+								class="btn btn-sm border-0 px-3 py-1 rounded-pill text-white"
+								style="background-color: rgba(255, 255, 255, 0.1);">
+								More &hellip;
+							</a>
+						</div>
+
+						<!-- Genre utama (10 pertama) -->
+						<div class="d-flex flex-wrap gap-2" id="main-genres">
+							{% for genre in genres[:10] %}
+							<button class="btn d-flex align-items-center gap-2 px-3 py-2 rounded-pill text-white"
+								style="background-color: rgba(255,255,255,0.08); font-size: 14px;">
+								<i class='bx bx-music'></i> {{ genre }}
+							</button>
+							{% endfor %}
+						</div>
+					</div>
+
+					<div class="col-md-12 mb-5 pb-2">
+						<div class="d-flex justify-content-between align-items-center mb-4">
+							<!-- Judul -->
+							<h2 class="text-uppercase fw-semibold text-white mb-0">My Top Tracks Playlist</h2>
+
+							<!-- Tombol More (Ellipsis) -->
+							<!-- <button class="btn btn-sm border-0 px-3 py-1 rounded-pill text-white"
+								style="background-color: rgba(255, 255, 255, 0.1);">
+								Show All &gt;
+							</button> -->
+						</div>
+						<div style="max-height: 300px; overflow-y: auto;">
+							<table class="table table-borderless text-white">
+								<thead class="opacity-50 small border-bottom"
+									style="border-color: rgba(255,255,255,0.2);">
+									<tr>
+										<th>TITLE</th>
+										<th>ARTIST</th>
+										<th>TIME</th>
+										<th>ALBUM</th>
+									</tr>
+								</thead>
+								<tbody id="playlist">
+									{% for track in playlist_tracks %}
+									<tr class="song-row">
+										<td>{{ track.title }}</td>
+										<td>{{ track.artist }}</td>
+										<td>{{ track.duration }}</td>
+										<td>{{ track.album }}</td>
+									</tr>
+									{% endfor %}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--end page wrapper -->
+	</div>
+	<!--end wrapper-->
+
+	<div class="overlay" style="display: none;"></div>
+
+	<!-- jQuery HARUS pertama -->
+	<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+
+	<!-- Kemudian Bootstrap & plugin -->
+	<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/index.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/simplebar/js/simplebar.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
+</body>
