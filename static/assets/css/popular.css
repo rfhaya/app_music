@@ -3,14 +3,12 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
-  /* blok scroll */
+  overflow: hidden; /* untuk desktop */
 }
 
 .page-wrapper {
   height: 100vh;
   overflow: hidden;
-  /* mencegah scroll */
   padding-left: 20px;
   position: relative;
 }
@@ -30,7 +28,6 @@ body {
   inset: 0;
   backdrop-filter: blur(6px);
   background-color: rgba(0, 0, 0, 0.3);
-  /* opsional untuk gelap tipis */
   z-index: 0;
 }
 
@@ -42,6 +39,8 @@ body {
 
 .hero-text {
   max-width: 50%;
+  position: relative;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .hero-text h1 {
@@ -53,6 +52,16 @@ body {
   font-size: 1rem;
   margin-top: 10px;
   color: #e0e0e0;
+}
+
+.hero-text.slide-out {
+  transform: translateX(-30px);
+  opacity: 0;
+}
+
+.hero-text.slide-in {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .play-button {
@@ -117,22 +126,6 @@ body {
   color: #ccc;
 }
 
-.hero-text {
-  max-width: 50%;
-  position: relative;
-  transition: transform 0.4s ease, opacity 0.4s ease;
-}
-
-.hero-text.slide-out {
-  transform: translateX(-30px);
-  opacity: 0;
-}
-
-.hero-text.slide-in {
-  transform: translateX(0);
-  opacity: 1;
-}
-
 #waveCanvas {
   z-index: 1;
   pointer-events: none;
@@ -147,13 +140,11 @@ body {
 
 .scroll-vertical {
   max-height: 400px;
-  /* Atur sesuai kebutuhan */
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding-right: 4px;
-  /* Tambahan agar konten tidak terpotong */
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -162,12 +153,23 @@ body {
 
 .no-scrollbar {
   -ms-overflow-style: none;
-  /* IE 10+ */
   scrollbar-width: none;
-  /* Firefox */
 }
 
+/* ============================================= */
+/*                RESPONSIVE MOBILE              */
+/* ============================================= */
 @media screen and (max-width: 768px) {
+  html, body {
+    overflow: auto;
+  }
+
+  .page-wrapper {
+    height: auto;
+    overflow: auto !important;
+    padding-left: 0;
+  }
+
   .hero-section {
     flex-direction: column;
     align-items: center;
@@ -192,7 +194,7 @@ body {
 
   .next-songs {
     position: relative;
-    margin-top: 150px;
+    margin-top: 40px;
     width: 100%;
     right: 0;
     align-items: center;
@@ -203,16 +205,11 @@ body {
     max-height: 250px;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding-right: 8px;
     width: 100%;
+    padding-right: 8px;
   }
 
   .song-card {
-    display: flex;
-    flex-direction: column;
     gap: 10px;
     align-items: center;
     width: 90%;
@@ -253,11 +250,5 @@ body {
   #player-title,
   #player-artist {
     font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page-wrapper {
-    overflow: auto !important;
   }
 }

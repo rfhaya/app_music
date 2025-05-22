@@ -85,3 +85,150 @@
 #preview-audio {
   margin-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  /* Atur ulang padding dan layout utama */
+  .page-wrapper-discover {
+    height: auto;
+    overflow: auto !important;
+    padding-left: 0;
+  }
+
+  .page-content-discovery {
+    padding-left: 0;
+  }
+
+  .bg-image {
+    height: 100%;
+    min-height: 100vh;
+    background-position: top center;
+  }
+
+  .overlay {
+    min-height: 100vh;
+  }
+
+  .content {
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .playlist-title h1 {
+    font-size: 28px;
+  }
+
+  .playlist-title p {
+    font-size: 0.85rem;
+  }
+
+  /* Track list container */
+  #track-container {
+    max-height: 300px;
+    padding: 10px;
+  }
+
+  .track-item {
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+
+  .track-item i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  .track-item .ms-3 {
+    margin-left: 0 !important;
+  }
+
+  .track-item strong {
+    display: block;
+    text-align: left;
+    margin-bottom: 0 !important;
+    line-height: 1.1;
+  }
+  
+  .track-item small {
+    display: block;
+    text-align: left;
+    margin-top: 0 !important;
+    line-height: 1.1;
+  }
+
+  .track-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .track-item audio {
+    width: 100%;
+  }
+
+  /* Preview section on right -> below */
+  .col-md-6.text-end {
+    text-align: center !important;
+    margin-top: 30px;
+  }
+
+  #preview-image {
+    width: 120px;
+  }
+
+  #preview-title {
+    font-size: 1.5rem;
+  }
+
+  #preview-artist {
+    font-size: 1rem;
+  }
+
+  #preview-link {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 0px;
+  }
+
+  .volume-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  /* Sidebar behavior fix */
+  .sidebar-wrapper {
+    left: -260px;
+    width: 250px;
+    transition: left 0.3s ease;
+    z-index: 999;
+    position: fixed;
+    background: #1f103f;
+  }
+
+  .wrapper.sidebar-open .sidebar-wrapper {
+    left: 0 !important;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .wrapper.sidebar-open .overlay {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 998;
+    position: fixed;
+  }
+
+  .sidebar-profile {
+    position: relative;
+    margin-top: auto;
+    background: rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-toggle-menu {
+    display: block !important;
+    font-size: 26px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+}

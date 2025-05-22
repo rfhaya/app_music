@@ -2825,46 +2825,54 @@ input.search-control-2::placeholder {
 /* Fix untuk tampilan mobile (maksimal 1024px) */
 @media screen and (max-width: 1024px) {
 	.sidebar-wrapper {
-		position: fixed;
-		top: 0;
-		bottom: 0;
-		left: -260px;
-		/* awalnya di luar layar */
-		width: 250px;
-		background: #1f103f;
-		transition: left 0.3s ease;
-		/* animasi slide */
-		z-index: 1001;
+	  left: -260px;
+	  width: 250px;
+	  z-index: 1001;
+	  background: #1f103f;
+	  transition: left 0.3s ease;
+	  overflow-y: auto;
 	}
-
+  
+	/* Saat sidebar dibuka */
 	.wrapper.sidebar-open .sidebar-wrapper {
-		left: 0 !important;
-		/* tampil penuh */
+	  left: 0 !important;
 	}
-
+  
 	.overlay {
-		display: none;
+	  display: none;
 	}
-
+  
 	.wrapper.sidebar-open .overlay {
-		display: block;
-		position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: rgba(0, 0, 0, 0.5);
-		z-index: 1000;
+	  display: block;
+	  position: fixed;
+	  top: 0;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  background: rgba(0, 0, 0, 0.5);
+	  z-index: 1000;
 	}
-
+  
 	.wrapper.sidebar-open {
-		overflow: hidden;
+	  overflow: hidden;
 	}
-
+  
 	.page-wrapper {
-		margin-left: 0 !important;
+	  margin-left: 0 !important;
 	}
-}
+  
+	/* Sidebar profile tidak menimpa menu */
+	.sidebar-profile {
+	  position: relative;
+	  bottom: 0;
+	  width: 100%;
+	  margin-top: auto;
+	  background: rgba(0, 0, 0, 0.1);
+	  z-index: 1;
+	  border-top: 1px solid rgba(255, 255, 255, 0.1);
+	}
+  }
+  
 
 @media screen and (max-width: 768px) {
 	.player-bar {

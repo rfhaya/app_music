@@ -158,3 +158,63 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  #artist-detail {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+    text-align: center;
+    min-height: unset !important;
+    height: auto !important;
+  }
+
+  #artist-detail::before {
+    height: 100%;
+    min-height: 100%;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .subheading {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+
+  .section-title {
+    font-size: 0.9rem;
+    margin-top: 25px;
+  }
+
+  .artist-left,
+  .artist-right {
+    flex: unset;
+    max-width: 100%;
+  }
+
+  .artist-card {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+  }
+
+  .album-list {
+    align-items: center;
+  }
+
+  .album-card {
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+  }
+
+  .album-title {
+    font-size: 0.95rem;
+  }
+
+  .album-desc {
+    font-size: 0.85rem;
+  }
+}

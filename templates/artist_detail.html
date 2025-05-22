@@ -53,6 +53,25 @@
 			opacity: 0;
 			pointer-events: none;
 		}
+
+		@media (max-width: 768px) {
+
+			html,
+			body {
+				height: auto !important;
+				min-height: 100% !important;
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+
+
+
+			.page-wrapper {
+				height: auto !important;
+				overflow: visible !important;
+				padding-left: 0 !important;
+			}
+		}
 	</style>
 </head>
 
@@ -165,7 +184,7 @@
 		<!--end sidebar wrapper -->
 		<!--start header -->
 		<header>
-			<div class="topbar d-flex align-items-center">
+			<div class="topbar d-flex align-items-center" style="z-index: 999;">
 				<nav class="navbar navbar-expand">
 					<div class="mobile-toggle-menu d-md-none"><i class='bx bx-menu'></i></div>
 				</nav>
@@ -222,7 +241,7 @@
 	<script src="{{ url_for('static', filename='assets/plugins/metismenu/js/metisMenu.min.js') }}"></script>
 	<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
 	<script>
-		window.addEventListener("load", function() {
+		window.addEventListener("load", function () {
 			const loader = document.getElementById("loading-screen");
 			loader.classList.add("fade-out");
 			setTimeout(() => loader.style.display = "none", 700); // Delay sampai animasi selesai

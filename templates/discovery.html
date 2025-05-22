@@ -112,7 +112,7 @@
 		<!--end sidebar wrapper -->
 		<!--start header -->
 		<header>
-			<div class="topbar d-flex align-items-center">
+			<div class="topbar d-flex align-items-center" style="z-index: 999;">
 				<nav class="navbar navbar-expand">
 					<div class="mobile-toggle-menu d-md-none"><i class='bx bx-menu'></i></div>
 				</nav>
@@ -137,7 +137,7 @@
 								</p>
 							</div>
 
-							<div class="mt-4" id="track-container" style="max-height: 300px; overflow-y: auto;">
+							<div class="mt-4" id="track-container" style="max-height: 250px; overflow-y: auto;">
 								{% for track in tracks %}
 								<div class="track-item d-flex align-items-center py-2">
 									<img src="{{ track.image }}" width="60" class="me-3">
@@ -198,7 +198,7 @@
 					<div class="track-item d-flex align-items-center py-2" onclick="updatePreview(${i})">
 						<i class='bx bx-play'></i>
 						<div class="ms-3">
-							<strong>${track.title}</strong><br>
+							<p><strong>${track.title}</strong></p>
 							<small>${track.artist}</small>
 						</div>
 					</div>`;
