@@ -22,6 +22,29 @@
 	<!-- Theme Style CSS -->
 	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/header-colors.css') }}" />
 	<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/artists.css') }}" />
+
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			overflow: hidden;
+			/* blok scroll */
+		}
+
+		.page-wrapper {
+			height: 100vh;
+			overflow: hidden;
+			/* mencegah scroll */
+			padding-left: 20px;
+			position: relative;
+		}
+
+		.page-content {
+			padding: 0 !important;
+		}
+	</style>
 </head>
 
 <body>
